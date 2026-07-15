@@ -299,7 +299,10 @@ export default function Timeline({ economists }: { economists: TimelineEconomist
                     fill="var(--bg)"
                     pointerEvents="none"
                   >
-                    {e.name}
+                    {/* fall back to surname when the full name overflows the bar */}
+                    {e.name.length * 6.2 < bw - 10
+                      ? e.name
+                      : e.name.split(" ").slice(-1)[0]}
                   </text>
                 )}
               </g>

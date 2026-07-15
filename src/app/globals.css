@@ -1,0 +1,202 @@
+@import "tailwindcss";
+
+@theme {
+  /* Warm "old paper" light palette with a restrained accent. */
+  --color-paper: #faf7f1;
+  --color-paper-raised: #ffffff;
+  --color-ink: #211d17;
+  --color-ink-soft: #57503f;
+  --color-line: #e5ddcd;
+  --color-accent: #0f6b5c;
+  --color-accent-soft: #e3efec;
+
+  --color-paper-dark: #171512;
+  --color-paper-raised-dark: #211e19;
+  --color-ink-dark: #ece5d8;
+  --color-ink-soft-dark: #a89f8c;
+  --color-line-dark: #37322a;
+  --color-accent-dark: #4cc2ac;
+  --color-accent-soft-dark: #12332d;
+
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia,
+    "Times New Roman", serif;
+  --font-body: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+}
+
+:root {
+  --bg: var(--color-paper);
+  --bg-raised: var(--color-paper-raised);
+  --fg: var(--color-ink);
+  --fg-soft: var(--color-ink-soft);
+  --line: var(--color-line);
+  --accent: var(--color-accent);
+  --accent-soft: var(--color-accent-soft);
+
+  /* Chart series colors — validated for CVD separation + contrast on both
+     surfaces (dataviz palette check). Demand is always blue, supply always
+     orange, site-wide. Shortage/surplus are states, direct-labeled in use. */
+  --chart-demand: #2563eb;
+  --chart-supply: #b45309;
+  --chart-shortage: #dc2626;
+  --chart-surplus: #7c3aed;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: var(--color-paper-dark);
+    --bg-raised: var(--color-paper-raised-dark);
+    --fg: var(--color-ink-dark);
+    --fg-soft: var(--color-ink-soft-dark);
+    --line: var(--color-line-dark);
+    --accent: var(--color-accent-dark);
+    --accent-soft: var(--color-accent-soft-dark);
+
+    --chart-demand: #3b82f6;
+    --chart-supply: #d97706;
+    --chart-shortage: #ef4444;
+    --chart-surplus: #8b5cf6;
+  }
+}
+
+html {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: var(--font-display);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ---------- Glossary tooltip (pure CSS, keyboard + touch friendly) ---------- */
+
+.glossary-term {
+  position: relative;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--accent);
+  color: inherit;
+  cursor: help;
+}
+
+.glossary-term::after {
+  content: attr(data-tip);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 0.5rem);
+  transform: translateX(-50%) translateY(4px);
+  width: max-content;
+  max-width: min(20rem, 80vw);
+  background: var(--fg);
+  color: var(--bg);
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-style: normal;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 0.25);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 120ms ease, transform 120ms ease;
+  pointer-events: none;
+  z-index: 50;
+  white-space: normal;
+}
+
+.glossary-term:hover::after,
+.glossary-term:focus-visible::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* ---------- Prose styles for MDX content ---------- */
+
+.prose {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  max-width: 42rem;
+}
+
+.prose p {
+  margin-block: 1.1em;
+}
+
+.prose h2 {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin-top: 2.2em;
+  margin-bottom: 0.6em;
+  scroll-margin-top: 5rem;
+}
+
+.prose h3 {
+  font-size: 1.1875rem;
+  margin-top: 1.8em;
+  margin-bottom: 0.5em;
+  scroll-margin-top: 5rem;
+}
+
+.prose a:not(.glossary-term) {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.prose ul,
+.prose ol {
+  padding-left: 1.5rem;
+  margin-block: 1.1em;
+}
+
+.prose ul {
+  list-style: disc;
+}
+
+.prose ol {
+  list-style: decimal;
+}
+
+.prose li {
+  margin-block: 0.4em;
+}
+
+.prose blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 1rem;
+  font-style: italic;
+  color: var(--fg-soft);
+  margin-block: 1.4em;
+}
+
+.prose strong {
+  font-weight: 650;
+}
+
+.prose hr {
+  border: none;
+  border-top: 1px solid var(--line);
+  margin-block: 2.5em;
+}

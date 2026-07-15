@@ -1,0 +1,34 @@
+{
+  "name": "propereconomics",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prebuild": "node scripts/build-indexes.mjs",
+    "predev": "node scripts/build-indexes.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "indexes": "node scripts/build-indexes.mjs"
+  },
+  "dependencies": {
+    "d3-scale": "^4.0.2",
+    "gray-matter": "^4.0.3",
+    "next": "^16.2.10",
+    "next-mdx-remote": "^6.0.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.2",
+    "@types/d3-scale": "^4.0.9",
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.2.10",
+    "postcss": "^8.5.19",
+    "tailwindcss": "^4.3.2",
+    "typescript": "^6.0.3"
+  }
+}

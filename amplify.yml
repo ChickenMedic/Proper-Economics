@@ -1,0 +1,21 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - nvm use 22 || true
+        - npm ci
+        - node scripts/build-indexes.mjs
+    build:
+      commands:
+        - npm run lint
+        - npm run typecheck
+        - npm run build
+  artifacts:
+    baseDirectory: out
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - node_modules/**/*
+      - .next/cache/**/*

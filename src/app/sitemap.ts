@@ -14,6 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/schools",
     "/learn",
     "/tax",
+    "/tax/history",
+    "/tax/today",
     "/glossary",
     "/about",
   ].map((p) => ({ url: `${BASE}${p}/`.replace(/\/\/$/, "/") }));

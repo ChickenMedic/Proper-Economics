@@ -139,6 +139,22 @@ export function getAllGlossary(): ContentDoc<GlossaryMeta>[] {
     .sort((a, b) => a.meta.term.localeCompare(b.meta.term));
 }
 
+export type TaxHistoryMeta = {
+  title: string;
+  description: string;
+  episodes: { year: number; id: string; label: string }[];
+};
+
+export function getTaxHistory(): ContentDoc<TaxHistoryMeta> | null {
+  const file = path.join(CONTENT_DIR, "tax", "history.mdx");
+  if (!fs.existsSync(file)) return null;
+  const { data, content } = matter(fs.readFileSync(file, "utf8"));
+  return {
+    meta: { episodes: [], ...(data as object) } as unknown as TaxHistoryMeta,
+    body: content,
+  };
+}
+
 /** slug -> one-line definition, used by the <G> tooltip component. */
 export function getGlossaryTipMap(): Record<string, { term: string; short: string }> {
   return Object.fromEntries(

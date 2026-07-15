@@ -1,0 +1,291 @@
+[
+  {
+    "name": "Czechia",
+    "iso": "CZ",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 23.0,
+    "topIncomeNote": "Top rate of 23% with no sub-central income tax (Tax Foundation combined figure for 2026 is also 23.0%).",
+    "corporateRate": 21.0,
+    "corporateNote": "21% applies to tax periods starting in 2024 (was 19% before then), per PwC.",
+    "vatRate": 21.0,
+    "vatNote": "Standard rate per PwC WWTS VAT rates quick chart (taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates).",
+    "taxToGdp": 34.0,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 33.2%).",
+    "asOf": 2026,
+    "sources": [
+      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+    ]
+  },
+  {
+    "name": "Estonia",
+    "iso": "EE",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 22.0,
+    "topIncomeNote": "Flat 22% on all resident income (PwC, reviewed May 2026); Tax Foundation's 2026 combined figure is also 22.0%.",
+    "corporateRate": 22.0,
+    "corporateNote": "Distribution-based system: 22% applies only when profits are distributed; retained earnings are untaxed (PwC).",
+    "vatRate": 24.0,
+    "vatNote": "Standard rate per PwC WWTS VAT rates quick chart (taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates).",
+    "taxToGdp": 35.2,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 33.6%).",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries — Estonia, personal income tax", "url": "https://taxsummaries.pwc.com/estonia/individual/taxes-on-personal-income" },
+      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+    ]
+  },
+  {
+    "name": "Greece",
+    "iso": "GR",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 44.0,
+    "topIncomeNote": "Top marginal rate of 44%; no sub-central income tax (Tax Foundation combined figure for 2026 is also 44.0%).",
+    "corporateRate": 22.0,
+    "vatRate": 24.0,
+    "vatNote": "Standard rate per PwC WWTS VAT rates quick chart (taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates).",
+    "taxToGdp": 39.8,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 38.9%).",
+    "asOf": 2026,
+    "sources": [
+      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+    ]
+  },
+  {
+    "name": "Hungary",
+    "iso": "HU",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 15.0,
+    "topIncomeNote": "Flat 15% personal income tax; no sub-central income tax (Tax Foundation combined figure for 2026 is also 15.0%).",
+    "corporateRate": 9.0,
+    "corporateNote": "Lowest headline corporate rate in the OECD (Tax Foundation 2025 combined figure: 9.0%).",
+    "vatRate": 27.0,
+    "vatNote": "Highest standard VAT rate in the OECD; per PwC WWTS VAT rates quick chart (taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates).",
+    "taxToGdp": 34.4,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 35.0%).",
+    "asOf": 2026,
+    "sources": [
+      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+    ]
+  },
+  {
+    "name": "Italy",
+    "iso": "IT",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 47.2,
+    "topIncomeNote": "43% national IRPEF top rate plus regional surcharge (1.23%–3.33%) and municipal surcharge (0%–0.9%); 47.2% is the Tax Foundation 2026 combined central + sub-central figure.",
+    "corporateRate": 27.8,
+    "corporateNote": "24% IRES (PwC) plus the standard 3.9% regional production tax (IRAP); 27.8% is the Tax Foundation 2025 combined figure (27.81%). IRAP varies by region and industry.",
+    "vatRate": 22.0,
+    "vatNote": "Standard rate per PwC WWTS VAT rates quick chart (taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates).",
+    "taxToGdp": 42.8,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 41.5%).",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries — Italy, personal income tax", "url": "https://taxsummaries.pwc.com/italy/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation — Corporate Tax Rates around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+    ]
+  },
+  {
+    "name": "Latvia",
+    "iso": "LV",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 36.0,
+    "topIncomeNote": "Brackets of 25.5% (up to EUR 105,300) and 33%, plus an additional 3% on total annual income above EUR 200,000, giving a 36% top marginal rate (PwC; Tax Foundation 2026 figure also 36.0%).",
+    "corporateRate": 20.0,
+    "corporateNote": "Distribution-based system: 20% payable only when profits are distributed (PwC).",
+    "vatRate": 21.0,
+    "vatNote": "Standard rate per PwC WWTS VAT rates quick chart (taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates).",
+    "taxToGdp": 34.9,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 32.5%); largest 2024 increase in the OECD (+2.4 p.p.).",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries — Latvia, personal income tax", "url": "https://taxsummaries.pwc.com/latvia/individual/taxes-on-personal-income" },
+      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+    ]
+  },
+  {
+    "name": "Lithuania",
+    "iso": "LT",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 32.0,
+    "topIncomeNote": "32% top rate on employment income; different rates apply to individual-activity and other non-employment income (PwC). Tax Foundation 2026 combined figure also 32.0%.",
+    "corporateRate": 17.0,
+    "corporateNote": "Standard rate 17% from 1 January 2026 (PwC); Tax Foundation lists 16% for 2025. Credit institutions pay an additional 5%.",
+    "vatRate": 21.0,
+    "vatNote": "Standard rate per PwC WWTS VAT rates quick chart (taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates).",
+    "taxToGdp": 33.1,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 32.1%).",
+    "asOf": 2026,
+    "sources": [
+      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "PwC Worldwide Tax Summaries — Lithuania, corporate income tax", "url": "https://taxsummaries.pwc.com/lithuania/corporate/taxes-on-corporate-income" },
+      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+    ]
+  },
+  {
+    "name": "Poland",
+    "iso": "PL",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 36.0,
+    "topIncomeNote": "32% top bracket plus a 4% solidarity levy on income above PLN 1 million, giving a 36% combined top rate (PwC; Tax Foundation 2026 figure also 36.0%).",
+    "corporateRate": 19.0,
+    "vatRate": 23.0,
+    "vatNote": "Standard rate per PwC WWTS VAT rates quick chart (taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates).",
+    "taxToGdp": 36.6,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 34.9%).",
+    "asOf": 2026,
+    "sources": [
+      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+    ]
+  },
+  {
+    "name": "Portugal",
+    "iso": "PT",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 53.0,
+    "topIncomeNote": "48% top bracket plus solidarity surtax of 2.5% on taxable income above EUR 80,000 and 5% above EUR 250,000, giving a 53% combined top rate (PwC; Tax Foundation 2026 figure also 53.0%).",
+    "corporateRate": 29.5,
+    "corporateNote": "Maximum combined rate for 2026: 19% headline IRC (mainland) plus municipal surtax (derrama municipal, up to 1.5%) and state surtax (derrama estadual, up to 9% on profits above EUR 35 million), per PwC. Tax Foundation's 2025 combined figure was 30.5% (20% headline that year).",
+    "vatRate": 23.0,
+    "vatNote": "Mainland standard rate per PwC WWTS VAT rates quick chart (taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates).",
+    "taxToGdp": 35.1,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 35.3%).",
+    "asOf": 2026,
+    "sources": [
+      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "PwC Worldwide Tax Summaries — Portugal, corporate income tax", "url": "https://taxsummaries.pwc.com/portugal/corporate/taxes-on-corporate-income" },
+      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+    ]
+  },
+  {
+    "name": "Slovakia",
+    "iso": "SK",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 35.0,
+    "topIncomeNote": "From 1 January 2026 new 30% and 35% top brackets apply above multiples of the subsistence minimum (top rate was 25% through 2025), per PwC; Tax Foundation 2026 figure also 35.0%.",
+    "corporateRate": 24.0,
+    "vatRate": 23.0,
+    "vatNote": "Standard rate per PwC WWTS VAT rates quick chart (taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates).",
+    "taxToGdp": 35.6,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 35.1%). OECD reports Slovak data on a gross basis.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries — Slovak Republic, personal income tax", "url": "https://taxsummaries.pwc.com/slovak-republic/individual/taxes-on-personal-income" },
+      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+    ]
+  },
+  {
+    "name": "Slovenia",
+    "iso": "SI",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 50.0,
+    "topIncomeNote": "50% top bracket; no sub-central income tax (Tax Foundation combined figure for 2026 is also 50.0%).",
+    "corporateRate": 22.0,
+    "vatRate": 22.0,
+    "vatNote": "Standard rate per PwC WWTS VAT rates quick chart (taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates).",
+    "taxToGdp": 38.3,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 36.4%); second-largest 2024 increase in the OECD (+1.9 p.p.).",
+    "asOf": 2026,
+    "sources": [
+      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+    ]
+  },
+  {
+    "name": "Spain",
+    "iso": "ES",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 47.0,
+    "topIncomeNote": "Top rates vary by autonomous community: the combined rate is the sum of the state scale and each region's own scale. 47% is PwC's headline combined top rate (state withholding scale, income above EUR 300,000). Tax Foundation's 2026 figure is 54.0%, reflecting the highest regional combination.",
+    "corporateRate": 25.0,
+    "corporateNote": "25% standard rate (PwC CIT quick chart; Tax Foundation 2025 combined figure also 25.0%).",
+    "vatRate": 21.0,
+    "vatNote": "Standard rate per PwC WWTS VAT rates quick chart (taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates).",
+    "taxToGdp": 36.7,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 36.4%).",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries — Spain, personal income tax", "url": "https://taxsummaries.pwc.com/spain/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+    ]
+  },
+  {
+    "name": "Turkey",
+    "iso": "TR",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 40.8,
+    "topIncomeNote": "40% top income tax bracket (above TRY 5,300,000 in 2026) plus stamp duty of 0.759% on gross salaries (PwC); 40.8% is the Tax Foundation 2026 combined-with-surtaxes figure.",
+    "corporateRate": 25.0,
+    "corporateNote": "25% standard rate; 30% for financial sector companies (PwC CIT quick chart).",
+    "vatRate": 20.0,
+    "vatNote": "Standard rate per PwC WWTS VAT rates quick chart (taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates).",
+    "taxToGdp": 24.0,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 23.2%). OECD notes 2024 nominal revenues rose 69% amid very high inflation.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries — Turkey, personal income tax", "url": "https://taxsummaries.pwc.com/turkey/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+    ]
+  },
+  {
+    "name": "Israel",
+    "iso": "IL",
+    "region": "Middle East & Africa",
+    "oecd": true,
+    "topIncomeRate": 50.0,
+    "topIncomeNote": "47% top bracket (above ILS 560,280 in 2026) plus 3% surtax on annual taxable income above ILS 721,560, giving a 50% combined top rate (PwC). An additional 2% surtax applies to high capital income from 2025.",
+    "corporateRate": 23.0,
+    "vatRate": 18.0,
+    "vatNote": "Standard rate per PwC WWTS VAT rates quick chart (taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates).",
+    "taxToGdp": 30.9,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 29.8%).",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries — Israel, personal income tax", "url": "https://taxsummaries.pwc.com/israel/individual/taxes-on-personal-income" },
+      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "name": "United States",
+    "iso": "US",
+    "region": "Americas",
+    "oecd": true,
+    "topIncomeRate": 37.0,
+    "topIncomeNote": "Federal top rate only (37% for 2025, PwC). No single combined figure: most states levy their own income tax on top (eight states have none; few state rates exceed 10%), so the combined top rate varies by state.",
+    "corporateRate": 25.6,
+    "corporateNote": "Tax Foundation 2025 combined rate (25.57%): 21% federal plus average state corporate tax; state CIT ranges from 0% to 12% and is deductible against federal tax.",
+    "vatRate": null,
+    "vatNote": "No national VAT; state and local sales taxes average 7.5% combined (population-weighted, 7.53% as of 1 Jan 2026, Tax Foundation: taxfoundation.org/data/all/state/sales-tax-rates/).",
+    "taxToGdp": 25.6,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure, OECD Revenue Statistics 2025.",
+    "asOf": 2025,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries — United States, taxes on personal income", "url": "https://taxsummaries.pwc.com/united-states/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Canada",
+    "iso": "CA",
+    "region": "Americas",
+    "oecd": true,
+    "topIncomeRate": 53.5,
+    "topIncomeNote": "Combined federal (33%) plus Ontario top rate for 2026 (PwC: 53.5%). Provincial top rates vary; the highest combined rate is 54.8% in Newfoundland and Labrador.",
+    "corporateRate": 26.0,
+    "corporateNote": "Tax Foundation 2025 combined rate (25.98%): 15% federal plus provincial/territorial corporate taxes (8%-15%, not federally deductible).",
+    "vatRate": 5.0,
+    "vatNote": "Federal GST is 5%; combined federal plus provincial sales taxes (HST/PST/QST) range from 5% to 15% (PwC VAT quick chart).",
+    "taxToGdp": 34.9,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure, OECD Revenue Statistics 2025.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries — Canada, taxes on personal income", "url": "https://taxsummaries.pwc.com/canada/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Mexico",
+    "iso": "MX",
+    "region": "Americas",
+    "oecd": true,
+    "topIncomeRate": 35.0,
+    "topIncomeNote": "Top progressive rate for residents (PwC). No sub-central income tax on employment income.",
+    "corporateRate": 30.0,
+    "corporateNote": "Federal rate; no sub-central corporate income tax (Tax Foundation 2025).",
+    "vatRate": 16.0,
+    "vatNote": "Standard rate per PwC VAT quick chart.",
+    "taxToGdp": 18.3,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure, OECD Revenue Statistics 2025; the lowest in the OECD.",
+    "asOf": 2025,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries — personal income tax rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/personal-income-tax-pit-rates" },
+      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Chile",
+    "iso": "CL",
+    "region": "Americas",
+    "oecd": true,
+    "topIncomeRate": 40.0,
+    "topIncomeNote": "Top rate of the progressive second-category/global complementary tax (PwC).",
+    "corporateRate": 27.0,
+    "corporateNote": "27% under the general (partially integrated) regime (Tax Foundation 2025); 25% applies under the SME regime (PwC).",
+    "vatRate": 19.0,
+    "vatNote": "Standard rate per PwC VAT quick chart.",
+    "taxToGdp": 20.5,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure, OECD Revenue Statistics 2025.",
+    "asOf": 2025,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries — personal income tax rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/personal-income-tax-pit-rates" },
+      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Colombia",
+    "iso": "CO",
+    "region": "Americas",
+    "oecd": true,
+    "topIncomeRate": 39.0,
+    "topIncomeNote": "Top progressive rate for residents (PwC). No sub-central income tax on employment income.",
+    "corporateRate": 35.0,
+    "corporateNote": "National rate; no sub-central corporate income tax (Tax Foundation 2025).",
+    "vatRate": 19.0,
+    "vatNote": "Standard rate per PwC VAT quick chart.",
+    "taxToGdp": 19.9,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure, OECD Revenue Statistics 2025; fell 2.2 percentage points from 2023, the largest OECD decline that year.",
+    "asOf": 2025,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries — personal income tax rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/personal-income-tax-pit-rates" },
+      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Costa Rica",
+    "iso": "CR",
+    "region": "Americas",
+    "oecd": true,
+    "topIncomeRate": 25.0,
+    "topIncomeNote": "Top rate on employment income (also 25% for self-employment income) per PwC.",
+    "corporateRate": 30.0,
+    "corporateNote": "National rate; no sub-central corporate income tax (Tax Foundation 2025).",
+    "vatRate": 13.0,
+    "vatNote": "Standard rate per PwC VAT quick chart.",
+    "taxToGdp": 24.8,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure, OECD Revenue Statistics 2025.",
+    "asOf": 2025,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries — personal income tax rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/personal-income-tax-pit-rates" },
+      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Australia",
+    "iso": "AU",
+    "region": "Asia-Pacific",
+    "oecd": true,
+    "topIncomeRate": 47.0,
+    "topIncomeNote": "Includes the 2% Medicare levy: 45% top marginal rate on taxable income over AUD 190,000 plus the 2% levy that applies to most residents (PwC). No state income taxes.",
+    "corporateRate": 30.0,
+    "corporateNote": "Standard rate (Tax Foundation 2025); 25% applies to 'small-medium business' entities (PwC).",
+    "vatRate": 10.0,
+    "vatNote": "Goods and services tax (GST) per PwC VAT quick chart.",
+    "taxToGdp": 29.9,
+    "taxToGdpYear": 2023,
+    "taxToGdpNote": "2023 figure; provisional 2024 data for Australia was not available in OECD Revenue Statistics 2025.",
+    "asOf": 2025,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries — Australia, taxes on personal income", "url": "https://taxsummaries.pwc.com/australia/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "New Zealand",
+    "iso": "NZ",
+    "region": "Asia-Pacific",
+    "oecd": true,
+    "topIncomeRate": 39.0,
+    "topIncomeNote": "Top marginal rate (PwC). No sub-central income taxes.",
+    "corporateRate": 28.0,
+    "corporateNote": "National rate; no sub-central corporate income tax (Tax Foundation 2025).",
+    "vatRate": 15.0,
+    "vatNote": "Goods and services tax (GST) per PwC VAT quick chart.",
+    "taxToGdp": 32.9,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure, OECD Revenue Statistics 2025.",
+    "asOf": 2025,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries — personal income tax rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/personal-income-tax-pit-rates" },
+      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Japan",
+    "iso": "JP",
+    "region": "Asia-Pacific",
+    "oecd": true,
+    "topIncomeRate": 55.9,
+    "topIncomeNote": "Combined top rate computed from PwC components: 45% national top rate plus the 2.1% national surtax (45 x 1.021 = 45.9%) plus the flat 10% local inhabitant's tax.",
+    "corporateRate": 29.7,
+    "corporateNote": "Tax Foundation 2025 combined national plus local rate (29.74%); the headline national CIT rate alone is 23.2% (PwC).",
+    "vatRate": 10.0,
+    "vatNote": "Consumption tax (Japan's VAT) per PwC VAT quick chart; a reduced 8% rate applies to certain items.",
+    "taxToGdp": 33.7,
+    "taxToGdpYear": 2023,
+    "taxToGdpNote": "2023 figure; provisional 2024 social security contribution data for Japan was not available in OECD Revenue Statistics 2025.",
+    "asOf": 2025,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries — Japan, taxes on personal income", "url": "https://taxsummaries.pwc.com/japan/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "South Korea",
+    "iso": "KR",
+    "region": "Asia-Pacific",
+    "oecd": true,
+    "topIncomeRate": 49.5,
+    "topIncomeNote": "Combined top rate stated by PwC: 45% national top rate plus local income tax assessed at 10% of the PIT rates (4.5% at the top bracket).",
+    "corporateRate": 27.5,
+    "corporateNote": "Combined 25% national top rate plus 2.5% local income tax for fiscal years starting on or after 1 Jan 2026 (PwC). Tax Foundation's 2025 combined figure was 26.4% (24% national top rate then in force).",
+    "vatRate": 10.0,
+    "vatNote": "Standard rate per PwC VAT quick chart.",
+    "taxToGdp": 25.3,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "Provisional 2024 figure, OECD Revenue Statistics 2025.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries — Korea, taxes on personal income", "url": "https://taxsummaries.pwc.com/republic-of-korea/individual/taxes-on-personal-income" },
+      { "label": "PwC Worldwide Tax Summaries — Korea, taxes on corporate income", "url": "https://taxsummaries.pwc.com/republic-of-korea/corporate/taxes-on-corporate-income" },
+      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  }
+]

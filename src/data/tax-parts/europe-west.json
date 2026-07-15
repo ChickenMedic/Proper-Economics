@@ -1,0 +1,287 @@
+[
+  {
+    "name": "Denmark",
+    "iso": "DK",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 60.5,
+    "topIncomeNote": "Includes the 8% labour-market tax and the new 5% top-top bracket on income above DKK 2,818,152 introduced in 2026; excludes church tax (avg. ~0.64%, optional). Verified against PwC Worldwide Tax Summaries.",
+    "corporateRate": 22.0,
+    "vatRate": 25.0,
+    "vatNote": "Standard rate as of January 2026 (Tax Foundation, https://taxfoundation.org/data/all/eu/value-added-tax-vat-rates-europe/).",
+    "taxToGdp": 45.2,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "2024 provisional figure, OECD Revenue Statistics 2025; highest in the OECD.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Tax Summaries (Denmark)", "url": "https://taxsummaries.pwc.com/denmark/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation (Corporate Income Tax Rates in Europe, 2026)", "url": "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 (highlights)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Finland",
+    "iso": "FI",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 45.0,
+    "topIncomeNote": "National top rate of 37.5% on income above EUR 52,100 plus average municipal tax of 7.5% (range 4.7-10.9%) for 2026, per PwC. Excludes church tax (1-2.25%) and the capped public-broadcasting tax. Down sharply from 51.8% in 2025 (Tax Foundation).",
+    "corporateRate": 20.0,
+    "vatRate": 25.5,
+    "vatNote": "Standard rate as of January 2026 (Tax Foundation, https://taxfoundation.org/data/all/eu/value-added-tax-vat-rates-europe/).",
+    "taxToGdp": 42.2,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "2024 provisional figure, OECD Revenue Statistics 2025.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Tax Summaries (Finland)", "url": "https://taxsummaries.pwc.com/finland/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation (Corporate Income Tax Rates in Europe, 2026)", "url": "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 (highlights)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Iceland",
+    "iso": "IS",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 46.3,
+    "topIncomeNote": "National top bracket of 31.35% plus the maximum/average municipal rate of 14.94% = 46.29% for 2026 (PwC). Municipal rates vary from 12.44% to 14.94%.",
+    "corporateRate": 20.0,
+    "vatRate": 24.0,
+    "vatNote": "Standard rate as of January 2026 (Tax Foundation, https://taxfoundation.org/data/all/eu/value-added-tax-vat-rates-europe/).",
+    "taxToGdp": 36.9,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "2024 provisional figure, OECD Revenue Statistics 2025.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Tax Summaries (Iceland)", "url": "https://taxsummaries.pwc.com/iceland/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation (Corporate Income Tax Rates in Europe, 2026)", "url": "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 (highlights)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Norway",
+    "iso": "NO",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 39.8,
+    "topIncomeNote": "22% flat tax on general income plus the top bracket-tax rate of 17.8% on personal income above NOK 1,467,200 for 2026 (PwC); excludes social security contributions. Tax Foundation's 2026 table shows 39.6% (https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/); the PwC statutory components are used here.",
+    "corporateRate": 22.0,
+    "vatRate": 25.0,
+    "vatNote": "Standard rate as of January 2026 (Tax Foundation, https://taxfoundation.org/data/all/eu/value-added-tax-vat-rates-europe/).",
+    "taxToGdp": 40.2,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "2024 provisional figure, OECD Revenue Statistics 2025; fell 1.4 percentage points from 2023, the largest decline among European OECD countries.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Tax Summaries (Norway)", "url": "https://taxsummaries.pwc.com/norway/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation (Corporate Income Tax Rates in Europe, 2026)", "url": "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 (highlights)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Sweden",
+    "iso": "SE",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 52.3,
+    "topIncomeNote": "20% national tax on taxable income above SEK 643,000 plus an average municipal rate of about 32% (PwC 2026). Combined 52.3% per Tax Foundation's 2026 table (https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/), which uses the precise average municipal rate.",
+    "corporateRate": 20.6,
+    "vatRate": 25.0,
+    "vatNote": "Standard rate as of January 2026 (Tax Foundation, https://taxfoundation.org/data/all/eu/value-added-tax-vat-rates-europe/).",
+    "taxToGdp": 41.4,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "2024 provisional figure, OECD Revenue Statistics 2025.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Tax Summaries (Sweden)", "url": "https://taxsummaries.pwc.com/sweden/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation (Corporate Income Tax Rates in Europe, 2026)", "url": "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 (highlights)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Austria",
+    "iso": "AT",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 55.0,
+    "topIncomeNote": "The 55% top rate applies only to income above EUR 1,000,000; the next bracket (EUR 104,859-1,000,000) is taxed at 50% (PwC 2026).",
+    "corporateRate": 23.0,
+    "vatRate": 20.0,
+    "vatNote": "Standard rate as of January 2026 (Tax Foundation, https://taxfoundation.org/data/all/eu/value-added-tax-vat-rates-europe/).",
+    "taxToGdp": 43.4,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "2024 provisional figure, OECD Revenue Statistics 2025; third-highest in the OECD.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Tax Summaries (Austria)", "url": "https://taxsummaries.pwc.com/austria/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation (Corporate Income Tax Rates in Europe, 2026)", "url": "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 (highlights)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Belgium",
+    "iso": "BE",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 53.5,
+    "topIncomeNote": "50% federal top rate plus an average communal surcharge of 7% of the income tax due (communal rates range 0-9%), per PwC (income year 2025); matches Tax Foundation's 2026 combined figure.",
+    "corporateRate": 25.0,
+    "vatRate": 21.0,
+    "vatNote": "Standard rate as of January 2026 (Tax Foundation, https://taxfoundation.org/data/all/eu/value-added-tax-vat-rates-europe/).",
+    "taxToGdp": 42.6,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "2024 provisional figure, OECD Revenue Statistics 2025.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Tax Summaries (Belgium)", "url": "https://taxsummaries.pwc.com/belgium/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation (Corporate Income Tax Rates in Europe, 2026)", "url": "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 (highlights)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "France",
+    "iso": "FR",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 55.4,
+    "topIncomeNote": "Combined figure per Tax Foundation's 2026 table (https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/). The statutory top bracket is 45%, plus the exceptional contribution on high incomes (3-4% above EUR 250,000/500,000) and CSG/CRDS-type charges; from 2025 a differential contribution (CDHR) enforces a 20% minimum tax on high incomes (PwC).",
+    "corporateRate": 25.8,
+    "corporateNote": "Includes surcharges. A temporary exceptional contribution raises the rate to 36.1% for the first fiscal year ending on or after 31 December 2025 (Tax Foundation).",
+    "vatRate": 20.0,
+    "vatNote": "Standard rate as of January 2026 (Tax Foundation, https://taxfoundation.org/data/all/eu/value-added-tax-vat-rates-europe/).",
+    "taxToGdp": 43.5,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "2024 provisional figure, OECD Revenue Statistics 2025; second-highest in the OECD.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Tax Summaries (France)", "url": "https://taxsummaries.pwc.com/france/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation (Corporate Income Tax Rates in Europe, 2026)", "url": "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 (highlights)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Germany",
+    "iso": "DE",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 47.5,
+    "topIncomeNote": "45% top rate (taxable income above EUR 277,826 single) plus the 5.5% solidarity surcharge levied on the tax = 47.5% (PwC; Tax Foundation 2026). Church tax (8-9% of the income tax, for church members) excluded.",
+    "corporateRate": 30.1,
+    "corporateNote": "15% federal CIT plus 5.5% solidarity surcharge (15.825%) plus municipal trade tax varying roughly 8.75-20.3%; overall burden is ~30% in Berlin and ~33% in Munich (PwC). Federal CIT is legislated to fall stepwise from 2028. 30.1% is Tax Foundation's 2026 combined figure.",
+    "vatRate": 19.0,
+    "vatNote": "Standard rate as of January 2026 (Tax Foundation, https://taxfoundation.org/data/all/eu/value-added-tax-vat-rates-europe/).",
+    "taxToGdp": 38.0,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "2024 provisional figure, OECD Revenue Statistics 2025.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Tax Summaries (Germany)", "url": "https://taxsummaries.pwc.com/germany/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation (Corporate Income Tax Rates in Europe, 2026)", "url": "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 (highlights)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Ireland",
+    "iso": "IE",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 48.0,
+    "topIncomeNote": "Income tax top rate is 40% (on income above EUR 44,000 single, PwC 2026); the 48.0% combined figure per Tax Foundation's 2026 table (https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/) additionally reflects surtaxes (the Universal Social Charge).",
+    "corporateRate": 12.5,
+    "corporateNote": "Lowest headline corporate rate among these countries, per Tax Foundation's 2026 table.",
+    "vatRate": 23.0,
+    "vatNote": "Standard rate as of January 2026 (Tax Foundation, https://taxfoundation.org/data/all/eu/value-added-tax-vat-rates-europe/).",
+    "taxToGdp": 21.7,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "2024 provisional figure, OECD Revenue Statistics 2025; the ratio fell from 27.7% in 2010, the largest decline in the OECD over that period.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Tax Summaries (Ireland)", "url": "https://taxsummaries.pwc.com/ireland/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation (Corporate Income Tax Rates in Europe, 2026)", "url": "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 (highlights)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Luxembourg",
+    "iso": "LU",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 45.8,
+    "topIncomeNote": "42% top bracket (income above EUR 234,870) plus the 9% employment-fund solidarity surcharge on the tax for high earners = 45.78% (PwC 2025; unchanged in Tax Foundation's 2026 table).",
+    "corporateRate": 23.9,
+    "corporateNote": "16% CIT plus 7% solidarity surtax plus 6.75% Luxembourg City municipal business tax = 23.87% effective combined rate for Luxembourg City (PwC 2025).",
+    "vatRate": 17.0,
+    "vatNote": "Standard rate as of January 2026 (Tax Foundation, https://taxfoundation.org/data/all/eu/value-added-tax-vat-rates-europe/).",
+    "taxToGdp": 41.5,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "2024 provisional figure, OECD Revenue Statistics 2025; rose 1.7 percentage points from 2023, among the largest OECD increases.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Tax Summaries (Luxembourg)", "url": "https://taxsummaries.pwc.com/luxembourg/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation (Corporate Income Tax Rates in Europe, 2026)", "url": "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 (highlights)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Netherlands",
+    "iso": "NL",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 49.5,
+    "topIncomeNote": "49.5% on Box 1 (employment and home-ownership) income above EUR 78,426 (PwC 2026).",
+    "corporateRate": 25.8,
+    "vatRate": 21.0,
+    "vatNote": "Standard rate as of January 2026 (Tax Foundation, https://taxfoundation.org/data/all/eu/value-added-tax-vat-rates-europe/).",
+    "taxToGdp": 38.5,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "2024 provisional figure, OECD Revenue Statistics 2025.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Tax Summaries (Netherlands)", "url": "https://taxsummaries.pwc.com/netherlands/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation (Corporate Income Tax Rates in Europe, 2026)", "url": "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 (highlights)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "Switzerland",
+    "iso": "CH",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 39.7,
+    "topIncomeNote": "Combined figure for a typical canton per Tax Foundation's 2026 table (https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/). The federal top rate is 11.5%; cantonal and communal taxes vary widely by canton and commune (PwC), so the actual top rate depends on residence.",
+    "corporateRate": 19.6,
+    "corporateNote": "Federal CIT is 8.5% on profit after tax (~7.8% pre-tax); combined federal + cantonal + communal maximum rates range from about 11.7% to 20.5% depending on canton (PwC). 19.6% is Tax Foundation's 2026 representative combined figure.",
+    "vatRate": 8.1,
+    "vatNote": "Standard rate as of January 2026 (Tax Foundation, https://taxfoundation.org/data/all/eu/value-added-tax-vat-rates-europe/).",
+    "taxToGdp": 27.2,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "2024 provisional figure, OECD Revenue Statistics 2025.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Tax Summaries (Switzerland)", "url": "https://taxsummaries.pwc.com/switzerland/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation (Corporate Income Tax Rates in Europe, 2026)", "url": "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 (highlights)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  },
+  {
+    "name": "United Kingdom",
+    "iso": "GB",
+    "region": "Europe",
+    "oecd": true,
+    "topIncomeRate": 45.0,
+    "topIncomeNote": "Additional rate of 45% on income over GBP 125,140 for 2026/27 in England, Wales and Northern Ireland; Scotland's top rate on employment income is 48% (PwC).",
+    "corporateRate": 25.0,
+    "vatRate": 20.0,
+    "vatNote": "Standard rate as of January 2026 (Tax Foundation, https://taxfoundation.org/data/all/eu/value-added-tax-vat-rates-europe/).",
+    "taxToGdp": 34.4,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "2024 provisional figure, OECD Revenue Statistics 2025.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Tax Summaries (United Kingdom)", "url": "https://taxsummaries.pwc.com/united-kingdom/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation (Corporate Income Tax Rates in Europe, 2026)", "url": "https://taxfoundation.org/data/all/eu/corporate-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 (highlights)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+    ]
+  }
+]

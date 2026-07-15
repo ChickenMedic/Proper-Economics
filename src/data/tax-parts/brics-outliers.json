@@ -1,0 +1,185 @@
+[
+  {
+    "name": "Brazil",
+    "iso": "BR",
+    "region": "Americas",
+    "oecd": false,
+    "topIncomeRate": 27.5,
+    "topIncomeNote": "Top rate of the federal personal income tax schedule (PwC headline PIT rate).",
+    "corporateRate": 34,
+    "corporateNote": "Combined 34%: corporate income tax (IRPJ) at 25% (15% plus 10% surtax) plus social contribution on net profits (CSLL) at 9% (PwC).",
+    "vatRate": null,
+    "vatNote": "No single national VAT. Per PwC: state VAT (ICMS) normally 17-20%, federal PIS/COFINS combined 3.65% (cumulative) or 9.25% (non-cumulative), federal excise (IPI) typically 5-30%, municipal service tax (ISS) 2-5%.",
+    "taxToGdp": 33.7,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "OECD Revenue Statistics in Latin America and the Caribbean 2026 country note; general government, includes social security contributions.",
+    "asOf": 2025,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries - Brazil", "url": "https://taxsummaries.pwc.com/brazil" },
+      { "label": "OECD Revenue Statistics in LAC 2026 - Brazil", "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/04/revenue-statistics-in-latin-america-and-the-caribbean-2026-country-notes_968b866c/brazil_74b19915/cdb7e590-en.pdf" }
+    ]
+  },
+  {
+    "name": "Russia",
+    "iso": "RU",
+    "region": "Europe",
+    "oecd": false,
+    "topIncomeRate": 22,
+    "topIncomeNote": "Five-band progressive scale (13/15/18/20/22%) introduced 1 January 2025; the 22% top rate applies to annual income above RUB 50 million. PwC no longer publishes a Russia summary, so figures are from legal advisories covering the 2024 tax reform law.",
+    "corporateRate": 25,
+    "corporateNote": "General corporate income tax rate raised from 20% to 25% from 1 January 2025.",
+    "vatRate": 22,
+    "vatNote": "Standard VAT rate increased from 20% to 22% under Federal Law No. 425-FZ (adopted 28 November 2025), applying from 2026; a 10% preferential rate is retained for some products.",
+    "taxToGdp": 10.9,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "World Bank series 'Tax revenue (% of GDP)' (GC.TAX.TOTL.GD.ZS), central government only - excludes sub-national taxes and social contributions, so general-government burden is higher.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "Forte Tax & Law - Tax changes in Russia from 2025", "url": "https://fortetaxandlaw.com/en/tax-changes-in-russia-from-2025-new-rates-deductions-and-tax-obligations-for-businesses-and-individuals/" },
+      { "label": "Konsu - Changes to the Russian Tax Code 2026 (VAT to 22%)", "url": "https://konsugroup.com/en/news/changes-tax-code-russia-2026/" },
+      { "label": "World Bank - Tax revenue (% of GDP), Russia", "url": "https://data.worldbank.org/indicator/GC.TAX.TOTL.GD.ZS?locations=RU" }
+    ]
+  },
+  {
+    "name": "India",
+    "iso": "IN",
+    "region": "Asia-Pacific",
+    "oecd": false,
+    "topIncomeRate": 39,
+    "topIncomeNote": "PwC headline maximum marginal rate under the default new personal tax regime: 30% top slab plus 25% surcharge plus 4% health and education cess = 39%.",
+    "corporateRate": 30,
+    "corporateNote": "Domestic companies: base rate 25% or 30% depending on turnover, plus applicable surcharge and cess; concessional 22% or 15% regimes available subject to conditions (PwC).",
+    "vatRate": 18,
+    "vatNote": "GST standard rate 18%; GST has multiple slabs ranging from 5% to 28% depending on the goods or services supplied (PwC).",
+    "taxToGdp": 6.9,
+    "taxToGdpYear": 2022,
+    "taxToGdpNote": "World Bank series 'Tax revenue (% of GDP)' (GC.TAX.TOTL.GD.ZS), central government only - excludes state taxes, so the general-government ratio is substantially higher. 2022 is the most recent non-empty value.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries - India", "url": "https://taxsummaries.pwc.com/india" },
+      { "label": "World Bank - Tax revenue (% of GDP), India", "url": "https://data.worldbank.org/indicator/GC.TAX.TOTL.GD.ZS?locations=IN" }
+    ]
+  },
+  {
+    "name": "China",
+    "iso": "CN",
+    "region": "Asia-Pacific",
+    "oecd": false,
+    "topIncomeRate": 45,
+    "topIncomeNote": "Top rate of the progressive individual income tax on comprehensive income (PwC headline PIT rate).",
+    "corporateRate": 25,
+    "corporateNote": "Standard enterprise income tax rate (PwC headline CIT rate).",
+    "vatRate": 13,
+    "vatNote": "Standard VAT rate 13% for most goods; reduced rates of 9% and 6% apply depending on the goods or services (PwC).",
+    "taxToGdp": 20.4,
+    "taxToGdpYear": 2023,
+    "taxToGdpNote": "OECD Revenue Statistics in Asia and the Pacific 2025 country note; general government, includes social security contributions.",
+    "asOf": 2025,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries - China", "url": "https://taxsummaries.pwc.com/peoples-republic-of-china" },
+      { "label": "OECD Revenue Statistics in Asia and the Pacific 2025 - China", "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/revenue-statistics-in-asia-and-the-pacific-2025-country-notes_0a069779/china-people-s-republic_9dbe4e96/fc58ee5c-en.pdf" }
+    ]
+  },
+  {
+    "name": "South Africa",
+    "iso": "ZA",
+    "region": "Middle East & Africa",
+    "oecd": false,
+    "topIncomeRate": 45,
+    "topIncomeNote": "Top marginal personal income tax rate (PwC headline PIT rate).",
+    "corporateRate": 27,
+    "corporateNote": "Standard corporate income tax rate (PwC headline CIT rate).",
+    "vatRate": 15,
+    "vatNote": "Standard VAT rate (PwC).",
+    "taxToGdp": 27.1,
+    "taxToGdpYear": 2022,
+    "taxToGdpNote": "OECD Revenue Statistics in Africa 2024 country factsheet; general government.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries - South Africa", "url": "https://taxsummaries.pwc.com/south-africa" },
+      { "label": "OECD Revenue Statistics in Africa 2024 - South Africa", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-africa-south-africa.pdf" }
+    ]
+  },
+  {
+    "name": "United Arab Emirates",
+    "iso": "AE",
+    "region": "Middle East & Africa",
+    "oecd": false,
+    "topIncomeRate": 0,
+    "topIncomeNote": "No personal income tax; PwC lists the headline PIT rate as 'NA' (the territory does not have the tax).",
+    "corporateRate": 9,
+    "corporateNote": "New federal corporate income tax with a 9% headline rate (PwC headline CIT rate).",
+    "vatRate": 5,
+    "vatNote": "Standard VAT rate (PwC).",
+    "taxToGdp": 0.6,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "World Bank series 'Tax revenue (% of GDP)' (GC.TAX.TOTL.GD.ZS), central government only; most UAE government revenue comes from sources outside this series.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries - United Arab Emirates", "url": "https://taxsummaries.pwc.com/united-arab-emirates" },
+      { "label": "World Bank - Tax revenue (% of GDP), UAE", "url": "https://data.worldbank.org/indicator/GC.TAX.TOTL.GD.ZS?locations=AE" }
+    ]
+  },
+  {
+    "name": "Saudi Arabia",
+    "iso": "SA",
+    "region": "Middle East & Africa",
+    "oecd": false,
+    "topIncomeRate": 0,
+    "topIncomeNote": "No individual income tax scheme; employment income earned in Saudi Arabia is not taxed. Non-residents' Saudi-source income with no permanent establishment is taxed under withholding tax rules (PwC).",
+    "corporateRate": 20,
+    "corporateNote": "20% corporate income tax applies to the share of a resident company owned by non-Saudi/non-GCC persons and to non-residents with Saudi-source income; Saudi and GCC nationals' shareholdings pay Zakat at 2.5% of the Zakat base instead. Oil and hydrocarbon production is taxed at 50-85% (PwC).",
+    "vatRate": 15,
+    "vatNote": "Standard VAT rate 15% since 1 July 2020 (5% before that) (PwC).",
+    "taxToGdp": 8.1,
+    "taxToGdpYear": 2024,
+    "taxToGdpNote": "World Bank series 'Tax revenue (% of GDP)' (GC.TAX.TOTL.GD.ZS), central government only; excludes oil revenue collected through non-tax channels.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries - Saudi Arabia", "url": "https://taxsummaries.pwc.com/saudi-arabia" },
+      { "label": "PwC - Saudi Arabia corporate taxes on income", "url": "https://taxsummaries.pwc.com/saudi-arabia/corporate/taxes-on-corporate-income" },
+      { "label": "World Bank - Tax revenue (% of GDP), Saudi Arabia", "url": "https://data.worldbank.org/indicator/GC.TAX.TOTL.GD.ZS?locations=SA" }
+    ]
+  },
+  {
+    "name": "Singapore",
+    "iso": "SG",
+    "region": "Asia-Pacific",
+    "oecd": false,
+    "topIncomeRate": 24,
+    "topIncomeNote": "Top marginal rate for resident individuals (PwC headline PIT rate).",
+    "corporateRate": 17,
+    "corporateNote": "Flat corporate income tax rate (PwC headline CIT rate).",
+    "vatRate": 9,
+    "vatNote": "Goods and services tax (GST) standard rate (PwC).",
+    "taxToGdp": 13.6,
+    "taxToGdpYear": 2023,
+    "taxToGdpNote": "OECD Revenue Statistics in Asia and the Pacific 2025 country note; general government.",
+    "asOf": 2026,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries - Singapore", "url": "https://taxsummaries.pwc.com/singapore" },
+      { "label": "OECD Revenue Statistics in Asia and the Pacific 2025 - Singapore", "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/revenue-statistics-in-asia-and-the-pacific-2025-country-notes_0a069779/singapore_b5ec3355/a444e13f-en.pdf" }
+    ]
+  },
+  {
+    "name": "Hong Kong",
+    "iso": "HK",
+    "region": "Asia-Pacific",
+    "oecd": false,
+    "topIncomeRate": 16,
+    "topIncomeNote": "Salaries tax: progressive rates run 2-17%, but total tax is capped at the two-tiered standard rates - 15% on the first HKD 5 million of net income and 16% on the remainder (2025/26). Taxpayers pay the lower of the two computations, so 16% is the effective top statutory rate (PwC).",
+    "corporateRate": 16.5,
+    "corporateNote": "Profits tax: 16.5% for corporations, 15% for unincorporated businesses (PwC headline rates).",
+    "vatRate": null,
+    "vatNote": "No VAT/GST (PwC lists the standard VAT rate as 'NA').",
+    "taxToGdp": 13.0,
+    "taxToGdpYear": 2023,
+    "taxToGdpNote": "OECD Revenue Statistics in Asia and the Pacific 2025 country note for Hong Kong (China); general government.",
+    "asOf": 2025,
+    "sources": [
+      { "label": "PwC Worldwide Tax Summaries - Hong Kong SAR", "url": "https://taxsummaries.pwc.com/hong-kong-sar" },
+      { "label": "PwC - Hong Kong SAR individual taxes on personal income", "url": "https://taxsummaries.pwc.com/hong-kong-sar/individual/taxes-on-personal-income" },
+      { "label": "OECD Revenue Statistics in Asia and the Pacific 2025 - Hong Kong (China)", "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/revenue-statistics-in-asia-and-the-pacific-2025-country-notes_0a069779/hong-kong-china_929b5d45/61d6b26e-en.pdf" }
+    ]
+  }
+]

@@ -133,6 +133,20 @@ const searchIndex = [
       snippet: m.tagline,
       keywords: m.description,
     })),
+  {
+    type: "interactive",
+    title: "Taxes: how we got here",
+    url: "/tax/history/",
+    snippet: "Five thousand years of taxation, from tribute to the global minimum tax.",
+    keywords: "tax history income tax window tax vat laffer tithe tariff",
+  },
+  {
+    type: "interactive",
+    title: "How countries tax today",
+    url: "/tax/today/",
+    snippet: "Sourced tax rates for ~45 countries, compare tool, and the Laffer curve.",
+    keywords: "tax rates countries compare vat corporate income laffer curve explorer",
+  },
 ];
 
 fs.mkdirSync(path.join(root, "public"), { recursive: true });

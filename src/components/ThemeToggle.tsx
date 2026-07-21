@@ -38,7 +38,7 @@ export default function ThemeToggle() {
     try {
       localStorage.setItem("theme", next);
     } catch {
-      // Storage unavailable (private mode, blocked) — theme still switches
+      // Storage unavailable (private mode, blocked) - theme still switches
       // for this page; it just won't persist across navigations.
     }
     window.dispatchEvent(new Event(THEME_EVENT));

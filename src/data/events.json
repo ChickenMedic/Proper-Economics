@@ -1,10 +1,10 @@
 {
   "world": [
-    { "year": 1760, "label": "Industrial Revolution begins", "note": "Steam, factories, and cities transform how wealth is produced — the backdrop for classical economics." },
-    { "year": 1776, "label": "American Revolution / Wealth of Nations", "note": "'No taxation without representation' — and, the same year, Adam Smith publishes the book that founds modern economics." },
+    { "year": 1760, "label": "Industrial Revolution begins", "note": "Steam, factories, and cities transform how wealth is produced - the backdrop for classical economics." },
+    { "year": 1776, "label": "American Revolution / Wealth of Nations", "note": "'No taxation without representation' - and, the same year, Adam Smith publishes the book that founds modern economics." },
     { "year": 1789, "label": "French Revolution", "note": "Fiscal crisis and resentment of taxes like the salt tax (gabelle) help bring down the old order." },
     { "year": 1848, "label": "Revolutions of 1848", "note": "Uprisings across Europe; Marx and Engels publish the Communist Manifesto the same year." },
-    { "year": 1917, "label": "Russian Revolution", "note": "The first attempt to run a large economy by central plan — the real-world test of the calculation debate." },
+    { "year": 1917, "label": "Russian Revolution", "note": "The first attempt to run a large economy by central plan - the real-world test of the calculation debate." },
     { "year": 1929, "label": "Great Depression begins", "note": "Mass unemployment that classical theory struggled to explain; the crisis behind Keynes's General Theory." },
     { "year": 1944, "label": "Bretton Woods", "note": "Keynes helps design the postwar monetary order: fixed exchange rates, the IMF, and the World Bank." },
     { "year": 1973, "label": "Stagflation era", "note": "Inflation and unemployment rise together, breaking the postwar Keynesian consensus and boosting Friedman." },
@@ -13,7 +13,7 @@
     { "year": 2020, "label": "COVID-19 pandemic", "note": "Governments spend at wartime scale; supply shocks and inflation revive the monetarist debates." }
   ],
   "tax": [
-    { "year": 1696, "label": "English window tax", "note": "Tax the countable: windows. People bricked them up — a classic lesson in taxes changing behavior." },
+    { "year": 1696, "label": "English window tax", "note": "Tax the countable: windows. People bricked them up - a classic lesson in taxes changing behavior." },
     { "year": 1799, "label": "Pitt's income tax", "note": "Britain introduces the first modern income tax to fund war against Napoleon." },
     { "year": 1913, "label": "16th Amendment", "note": "The U.S. Constitution is amended to allow a federal income tax." },
     { "year": 1943, "label": "Mass income tax & withholding", "note": "WWII turns income tax from a class tax into a mass tax collected from every paycheck." },

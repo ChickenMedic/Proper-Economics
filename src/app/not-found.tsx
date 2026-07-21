@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function NotFound() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-24 text-center">
-      <h1 className="font-display text-4xl font-semibold">404 — no such page</h1>
+      <h1 className="font-display text-4xl font-semibold">404 - no such page</h1>
       <p className="mt-4 text-(--fg-soft)">
         As any economist will tell you: sometimes the thing you demand simply
         isn&apos;t supplied.

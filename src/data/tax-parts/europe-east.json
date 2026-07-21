@@ -15,9 +15,9 @@
     "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 33.2%).",
     "asOf": 2026,
     "sources": [
-      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
-      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
-      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+      { "label": "Tax Foundation - Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "PwC Worldwide Tax Summaries - CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 - Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
     ]
   },
   {
@@ -36,9 +36,9 @@
     "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 33.6%).",
     "asOf": 2026,
     "sources": [
-      { "label": "PwC Worldwide Tax Summaries — Estonia, personal income tax", "url": "https://taxsummaries.pwc.com/estonia/individual/taxes-on-personal-income" },
-      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
-      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+      { "label": "PwC Worldwide Tax Summaries - Estonia, personal income tax", "url": "https://taxsummaries.pwc.com/estonia/individual/taxes-on-personal-income" },
+      { "label": "PwC Worldwide Tax Summaries - CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 - Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
     ]
   },
   {
@@ -56,9 +56,9 @@
     "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 38.9%).",
     "asOf": 2026,
     "sources": [
-      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
-      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
-      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+      { "label": "Tax Foundation - Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "PwC Worldwide Tax Summaries - CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 - Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
     ]
   },
   {
@@ -77,9 +77,9 @@
     "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 35.0%).",
     "asOf": 2026,
     "sources": [
-      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
-      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
-      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+      { "label": "Tax Foundation - Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "PwC Worldwide Tax Summaries - CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 - Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
     ]
   },
   {
@@ -98,9 +98,9 @@
     "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 41.5%).",
     "asOf": 2026,
     "sources": [
-      { "label": "PwC Worldwide Tax Summaries — Italy, personal income tax", "url": "https://taxsummaries.pwc.com/italy/individual/taxes-on-personal-income" },
-      { "label": "Tax Foundation — Corporate Tax Rates around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
-      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+      { "label": "PwC Worldwide Tax Summaries - Italy, personal income tax", "url": "https://taxsummaries.pwc.com/italy/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation - Corporate Tax Rates around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 - Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
     ]
   },
   {
@@ -119,9 +119,9 @@
     "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 32.5%); largest 2024 increase in the OECD (+2.4 p.p.).",
     "asOf": 2026,
     "sources": [
-      { "label": "PwC Worldwide Tax Summaries — Latvia, personal income tax", "url": "https://taxsummaries.pwc.com/latvia/individual/taxes-on-personal-income" },
-      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
-      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+      { "label": "PwC Worldwide Tax Summaries - Latvia, personal income tax", "url": "https://taxsummaries.pwc.com/latvia/individual/taxes-on-personal-income" },
+      { "label": "PwC Worldwide Tax Summaries - CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 - Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
     ]
   },
   {
@@ -140,9 +140,9 @@
     "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 32.1%).",
     "asOf": 2026,
     "sources": [
-      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
-      { "label": "PwC Worldwide Tax Summaries — Lithuania, corporate income tax", "url": "https://taxsummaries.pwc.com/lithuania/corporate/taxes-on-corporate-income" },
-      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+      { "label": "Tax Foundation - Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "PwC Worldwide Tax Summaries - Lithuania, corporate income tax", "url": "https://taxsummaries.pwc.com/lithuania/corporate/taxes-on-corporate-income" },
+      { "label": "OECD Revenue Statistics 2025 - Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
     ]
   },
   {
@@ -160,9 +160,9 @@
     "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 34.9%).",
     "asOf": 2026,
     "sources": [
-      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
-      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
-      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+      { "label": "Tax Foundation - Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "PwC Worldwide Tax Summaries - CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 - Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
     ]
   },
   {
@@ -181,9 +181,9 @@
     "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 35.3%).",
     "asOf": 2026,
     "sources": [
-      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
-      { "label": "PwC Worldwide Tax Summaries — Portugal, corporate income tax", "url": "https://taxsummaries.pwc.com/portugal/corporate/taxes-on-corporate-income" },
-      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+      { "label": "Tax Foundation - Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "PwC Worldwide Tax Summaries - Portugal, corporate income tax", "url": "https://taxsummaries.pwc.com/portugal/corporate/taxes-on-corporate-income" },
+      { "label": "OECD Revenue Statistics 2025 - Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
     ]
   },
   {
@@ -201,9 +201,9 @@
     "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 35.1%). OECD reports Slovak data on a gross basis.",
     "asOf": 2026,
     "sources": [
-      { "label": "PwC Worldwide Tax Summaries — Slovak Republic, personal income tax", "url": "https://taxsummaries.pwc.com/slovak-republic/individual/taxes-on-personal-income" },
-      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
-      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+      { "label": "PwC Worldwide Tax Summaries - Slovak Republic, personal income tax", "url": "https://taxsummaries.pwc.com/slovak-republic/individual/taxes-on-personal-income" },
+      { "label": "PwC Worldwide Tax Summaries - CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 - Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
     ]
   },
   {
@@ -221,9 +221,9 @@
     "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 36.4%); second-largest 2024 increase in the OECD (+1.9 p.p.).",
     "asOf": 2026,
     "sources": [
-      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
-      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
-      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+      { "label": "Tax Foundation - Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "PwC Worldwide Tax Summaries - CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 - Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
     ]
   },
   {
@@ -242,9 +242,9 @@
     "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 36.4%).",
     "asOf": 2026,
     "sources": [
-      { "label": "PwC Worldwide Tax Summaries — Spain, personal income tax", "url": "https://taxsummaries.pwc.com/spain/individual/taxes-on-personal-income" },
-      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
-      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+      { "label": "PwC Worldwide Tax Summaries - Spain, personal income tax", "url": "https://taxsummaries.pwc.com/spain/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation - Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 - Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
     ]
   },
   {
@@ -263,9 +263,9 @@
     "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 23.2%). OECD notes 2024 nominal revenues rose 69% amid very high inflation.",
     "asOf": 2026,
     "sources": [
-      { "label": "PwC Worldwide Tax Summaries — Turkey, personal income tax", "url": "https://taxsummaries.pwc.com/turkey/individual/taxes-on-personal-income" },
-      { "label": "Tax Foundation — Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
-      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+      { "label": "PwC Worldwide Tax Summaries - Turkey, personal income tax", "url": "https://taxsummaries.pwc.com/turkey/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation - Top Personal Income Tax Rates in Europe, 2026", "url": "https://taxfoundation.org/data/all/eu/top-personal-income-tax-rates-europe/" },
+      { "label": "OECD Revenue Statistics 2025 - Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
     ]
   },
   {
@@ -283,9 +283,9 @@
     "taxToGdpNote": "Provisional 2024 figure from OECD Revenue Statistics 2025 (2023 final: 29.8%).",
     "asOf": 2026,
     "sources": [
-      { "label": "PwC Worldwide Tax Summaries — Israel, personal income tax", "url": "https://taxsummaries.pwc.com/israel/individual/taxes-on-personal-income" },
-      { "label": "PwC Worldwide Tax Summaries — CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
-      { "label": "OECD Revenue Statistics 2025 — Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
+      { "label": "PwC Worldwide Tax Summaries - Israel, personal income tax", "url": "https://taxsummaries.pwc.com/israel/individual/taxes-on-personal-income" },
+      { "label": "PwC Worldwide Tax Summaries - CIT rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/corporate-income-tax-cit-rates" },
+      { "label": "OECD Revenue Statistics 2025 - Tax revenue trends 1965–2024", "url": "https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html" }
     ]
   }
 ]

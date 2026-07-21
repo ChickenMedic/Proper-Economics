@@ -6,7 +6,7 @@ import { mdxComponents } from "@/components/mdx";
 export const metadata: Metadata = {
   title: "Glossary",
   description:
-    "Every economics term on this site, defined in plain English — the same definitions that power the hover tooltips.",
+    "Every economics term on this site, defined in plain English - the same definitions that power the hover tooltips.",
 };
 
 export default function GlossaryPage() {
@@ -25,7 +25,7 @@ export default function GlossaryPage() {
     <div className="mx-auto max-w-3xl px-4 py-12">
       <h1 className="font-display text-3xl sm:text-4xl font-semibold">Glossary</h1>
       <p className="mt-3 text-(--fg-soft)">
-        Plain-English definitions — the same ones behind every dotted-underline
+        Plain-English definitions - the same ones behind every dotted-underline
         tooltip on the site. {terms.length} terms and growing.
       </p>
 

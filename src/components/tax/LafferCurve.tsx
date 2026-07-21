@@ -7,8 +7,8 @@ import { Slider } from "@/components/interactives/InteractiveShell";
 /**
  * Stylized Laffer curve with an honest uncertainty band. Each curve is
  * revenue(r) = r·(1−r)^k, normalized; the peak sits at 1/(1+k). We shade the
- * whole family with peaks between ~45% and ~75% — roughly the span of serious
- * empirical estimates — rather than pretending the peak is known.
+ * whole family with peaks between ~45% and ~75% - roughly the span of serious
+ * empirical estimates - rather than pretending the peak is known.
  */
 const PEAK_LOW = 0.45;
 const PEAK_HIGH = 0.75;
@@ -59,7 +59,7 @@ export default function LafferCurve() {
 
   const verdict =
     rate <= 40
-      ? "At this rate, every serious estimate agrees: raising the rate raises revenue (though it may still slow growth — that's a separate argument)."
+      ? "At this rate, every serious estimate agrees: raising the rate raises revenue (though it may still slow growth - that's a separate argument)."
       : rate <= 75
         ? "You're now inside the disputed zone. Under some estimates a higher rate still raises revenue; under others you've passed the peak and it loses money. This is exactly where the empirical fight happens."
         : "Almost every estimate puts you past the peak here: the rate is so high that shrinking activity and avoidance outweigh the higher take.";
@@ -119,8 +119,8 @@ export default function LafferCurve() {
           <p>{verdict}</p>
         </div>
         <p className="text-xs text-(--fg-soft)">
-          The logic is solid at the endpoints — 0% raises nothing, 100% raises
-          nothing because no one works — but the location of the peak is{" "}
+          The logic is solid at the endpoints - 0% raises nothing, 100% raises
+          nothing because no one works - but the location of the peak is{" "}
           <strong>empirically disputed</strong>: published estimates for top-rate
           revenue-maximization run from around 45% to over 75%, varying by country,
           tax base, and how easily the taxed can move or avoid. Anyone who draws

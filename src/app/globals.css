@@ -3,7 +3,7 @@
 @theme {
   /* Warm "old paper" light palette with a vivid red accent.
      Accent contrast: #d31f1f is 4.9:1 on paper; #ff453a is 5.4:1 on dark.
-     Don't lighten the dark accent further — lighter sRGB reds go salmon. */
+     Don't lighten the dark accent further - lighter sRGB reds go salmon. */
   --color-paper: #faf7f1;
   --color-paper-raised: #ffffff;
   --color-ink: #211d17;
@@ -36,10 +36,10 @@
   --accent: var(--color-accent);
   --accent-soft: var(--color-accent-soft);
 
-  /* Chart series colors — validated for CVD separation + contrast on both
+  /* Chart series colors - validated for CVD separation + contrast on both
      surfaces (dataviz palette check). Demand is always blue, supply always
      orange, site-wide. Shortage/surplus are states, direct-labeled in use.
-     Shortage is teal (not red) so it never collides with the red accent —
+     Shortage is teal (not red) so it never collides with the red accent - 
      e.g. on the timeline, where accent and shortage draw side by side. */
   --chart-demand: #2563eb;
   --chart-supply: #b45309;
@@ -49,7 +49,7 @@
 
 /* Dark palette. Applied two ways: by system preference (unless the user
    forced light) and by the header toggle setting data-theme="dark".
-   Keep both blocks identical — they exist because CSS can't share a
+   Keep both blocks identical - they exist because CSS can't share a
    rule between a media query and an attribute selector. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {

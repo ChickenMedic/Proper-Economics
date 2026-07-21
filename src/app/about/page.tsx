@@ -16,7 +16,7 @@ export default function AboutPage() {
 
       <h2>The mission</h2>
       <p>
-        We want to simplify the discussion of economics — and be the one-stop shop
+        We want to simplify the discussion of economics - and be the one-stop shop
         for learning it. Every big idea, from the mercantilists to the behavioral
         economists, explained so your neighbor gets it: plain-English profiles, an
         interactive timeline, hands-on simulations, and links to the best videos and
@@ -27,8 +27,8 @@ export default function AboutPage() {
       <p>
         This site has a point of view, and we&apos;d rather state it than smuggle it:
         it&apos;s grounded in mainstream economics. Markets coordinate through prices,
-        and much of the site — especially the{" "}
-        <Link href="/learn/price-signals/">price-signals interactive</Link> — is built
+        and much of the site - especially the{" "}
+        <Link href="/learn/price-signals/">price-signals interactive</Link> - is built
         to show <em>why</em> price signals matter, including where centrally planned
         economies historically broke down.
       </p>
@@ -42,7 +42,7 @@ export default function AboutPage() {
 
       <h2>Methodology &amp; sources</h2>
       <p>
-        Profiles are checked against standard references — the Stanford Encyclopedia
+        Profiles are checked against standard references - the Stanford Encyclopedia
         of Philosophy, Encyclopaedia Britannica, and the economists&apos; own works,
         which we link in full text wherever they&apos;re in the public domain (Project
         Gutenberg, the Online Library of Liberty, the Marxists Internet Archive).
@@ -51,7 +51,7 @@ export default function AboutPage() {
         images from Wikimedia Commons, credited on each page.
       </p>
       <p>
-        The simulations are deliberately simplified teaching models, not forecasts —
+        The simulations are deliberately simplified teaching models, not forecasts - 
         each one says so, and each one has a text alternative describing what it
         demonstrates. Future tax data will be sourced from the OECD and the Tax
         Foundation with a &ldquo;data as of&rdquo; year shown in the interface.
@@ -59,7 +59,7 @@ export default function AboutPage() {
 
       <h2>Corrections</h2>
       <p>
-        Found an error — a date, a quote, a mischaracterized argument? Email{" "}
+        Found an error - a date, a quote, a mischaracterized argument? Email{" "}
         <a href="mailto:corrections@propereconomics.com">
           corrections@propereconomics.com
         </a>

@@ -6,7 +6,7 @@ import { SCHOOL_MAP } from "@/data/schools";
 export const metadata: Metadata = {
   title: "Schools of thought",
   description:
-    "The big families of economic ideas — what each school claims, what it got right, and where it fell short.",
+    "The big families of economic ideas - what each school claims, what it got right, and where it fell short.",
 };
 
 export default function SchoolsPage() {
@@ -21,7 +21,7 @@ export default function SchoolsPage() {
       </h1>
       <p className="mt-3 max-w-2xl text-(--fg-soft)">
         Economists cluster into families that share a core claim about how the world
-        works. Each explainer gives the school its best case — then the honest
+        works. Each explainer gives the school its best case - then the honest
         counterarguments.
       </p>
       <div className="mt-8 grid gap-4 sm:grid-cols-2">

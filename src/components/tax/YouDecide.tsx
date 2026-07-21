@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Slider } from "@/components/interactives/InteractiveShell";
 
 /**
- * Stylized tax regimes — deliberately simplified illustrations, not any real
+ * Stylized tax regimes - deliberately simplified illustrations, not any real
  * country's tax code and not tax advice. Single earner, no deductions beyond
  * the stated allowance, employment income only.
  */
@@ -46,7 +46,7 @@ const REGIMES: Regime[] = [
   {
     id: "nordic",
     label: "Nordic-style",
-    blurb: "High rates that start low down the income scale — funding broad services.",
+    blurb: "High rates that start low down the income scale - funding broad services.",
     color: "var(--chart-surplus)",
     brackets: [
       { upTo: 3_000, rate: 0 },
@@ -125,7 +125,7 @@ export default function YouDecide() {
       <p className="mt-4 text-xs text-(--fg-soft) max-w-2xl">
         These are <strong>simplified illustrations</strong>, not any country&apos;s
         actual tax code and not tax advice: single earner, employment income only,
-        no social contributions, credits, or local taxes — all of which change the
+        no social contributions, credits, or local taxes - all of which change the
         real picture a lot. The point is the <em>shape</em> of each system, not the
         exact bill. And remember the other half of the ledger: what the taxes buy
         differs just as much between these systems.

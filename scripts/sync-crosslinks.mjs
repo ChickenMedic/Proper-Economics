@@ -1,7 +1,7 @@
 // Symmetrizes influence links across economist profiles: if A lists B in
 // influencedBy, B gains A in influenced (and vice versa), so "the
 // conversation" reads from both ends. arguedAgainst is left as authored
-// (it isn't always symmetric — half these arguments were posthumous).
+// (it isn't always symmetric - half these arguments were posthumous).
 // Frontmatter arrays must be single-line flow style: `influenced: [a, b]`.
 import fs from "node:fs";
 import path from "node:path";

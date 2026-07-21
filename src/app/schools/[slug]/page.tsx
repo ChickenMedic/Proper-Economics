@@ -39,7 +39,7 @@ export default async function SchoolPage({
   const { meta, body } = doc;
 
   const band = SCHOOL_MAP[slug];
-  // SCHOOLS is in chronological order — walk it for previous/next idea.
+  // SCHOOLS is in chronological order - walk it for previous/next idea.
   const order = SCHOOLS.findIndex((s) => s.id === slug);
   const prevSchool = order > 0 ? SCHOOLS[order - 1] : null;
   const nextSchool = order >= 0 && order < SCHOOLS.length - 1 ? SCHOOLS[order + 1] : null;

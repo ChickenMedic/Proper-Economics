@@ -15,9 +15,9 @@
     "taxToGdpNote": "Provisional 2024 figure, OECD Revenue Statistics 2025.",
     "asOf": 2025,
     "sources": [
-      { "label": "PwC Worldwide Tax Summaries — United States, taxes on personal income", "url": "https://taxsummaries.pwc.com/united-states/individual/taxes-on-personal-income" },
-      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
-      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+      { "label": "PwC Worldwide Tax Summaries - United States, taxes on personal income", "url": "https://taxsummaries.pwc.com/united-states/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation - Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 - highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
     ]
   },
   {
@@ -36,9 +36,9 @@
     "taxToGdpNote": "Provisional 2024 figure, OECD Revenue Statistics 2025.",
     "asOf": 2026,
     "sources": [
-      { "label": "PwC Worldwide Tax Summaries — Canada, taxes on personal income", "url": "https://taxsummaries.pwc.com/canada/individual/taxes-on-personal-income" },
-      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
-      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+      { "label": "PwC Worldwide Tax Summaries - Canada, taxes on personal income", "url": "https://taxsummaries.pwc.com/canada/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation - Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 - highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
     ]
   },
   {
@@ -57,9 +57,9 @@
     "taxToGdpNote": "Provisional 2024 figure, OECD Revenue Statistics 2025; the lowest in the OECD.",
     "asOf": 2025,
     "sources": [
-      { "label": "PwC Worldwide Tax Summaries — personal income tax rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/personal-income-tax-pit-rates" },
-      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
-      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+      { "label": "PwC Worldwide Tax Summaries - personal income tax rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/personal-income-tax-pit-rates" },
+      { "label": "Tax Foundation - Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 - highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
     ]
   },
   {
@@ -78,9 +78,9 @@
     "taxToGdpNote": "Provisional 2024 figure, OECD Revenue Statistics 2025.",
     "asOf": 2025,
     "sources": [
-      { "label": "PwC Worldwide Tax Summaries — personal income tax rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/personal-income-tax-pit-rates" },
-      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
-      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+      { "label": "PwC Worldwide Tax Summaries - personal income tax rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/personal-income-tax-pit-rates" },
+      { "label": "Tax Foundation - Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 - highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
     ]
   },
   {
@@ -99,9 +99,9 @@
     "taxToGdpNote": "Provisional 2024 figure, OECD Revenue Statistics 2025; fell 2.2 percentage points from 2023, the largest OECD decline that year.",
     "asOf": 2025,
     "sources": [
-      { "label": "PwC Worldwide Tax Summaries — personal income tax rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/personal-income-tax-pit-rates" },
-      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
-      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+      { "label": "PwC Worldwide Tax Summaries - personal income tax rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/personal-income-tax-pit-rates" },
+      { "label": "Tax Foundation - Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 - highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
     ]
   },
   {
@@ -120,9 +120,9 @@
     "taxToGdpNote": "Provisional 2024 figure, OECD Revenue Statistics 2025.",
     "asOf": 2025,
     "sources": [
-      { "label": "PwC Worldwide Tax Summaries — personal income tax rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/personal-income-tax-pit-rates" },
-      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
-      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+      { "label": "PwC Worldwide Tax Summaries - personal income tax rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/personal-income-tax-pit-rates" },
+      { "label": "Tax Foundation - Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 - highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
     ]
   },
   {
@@ -141,9 +141,9 @@
     "taxToGdpNote": "2023 figure; provisional 2024 data for Australia was not available in OECD Revenue Statistics 2025.",
     "asOf": 2025,
     "sources": [
-      { "label": "PwC Worldwide Tax Summaries — Australia, taxes on personal income", "url": "https://taxsummaries.pwc.com/australia/individual/taxes-on-personal-income" },
-      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
-      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+      { "label": "PwC Worldwide Tax Summaries - Australia, taxes on personal income", "url": "https://taxsummaries.pwc.com/australia/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation - Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 - highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
     ]
   },
   {
@@ -162,9 +162,9 @@
     "taxToGdpNote": "Provisional 2024 figure, OECD Revenue Statistics 2025.",
     "asOf": 2025,
     "sources": [
-      { "label": "PwC Worldwide Tax Summaries — personal income tax rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/personal-income-tax-pit-rates" },
-      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
-      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+      { "label": "PwC Worldwide Tax Summaries - personal income tax rates quick chart", "url": "https://taxsummaries.pwc.com/quick-charts/personal-income-tax-pit-rates" },
+      { "label": "Tax Foundation - Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 - highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
     ]
   },
   {
@@ -183,9 +183,9 @@
     "taxToGdpNote": "2023 figure; provisional 2024 social security contribution data for Japan was not available in OECD Revenue Statistics 2025.",
     "asOf": 2025,
     "sources": [
-      { "label": "PwC Worldwide Tax Summaries — Japan, taxes on personal income", "url": "https://taxsummaries.pwc.com/japan/individual/taxes-on-personal-income" },
-      { "label": "Tax Foundation — Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
-      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+      { "label": "PwC Worldwide Tax Summaries - Japan, taxes on personal income", "url": "https://taxsummaries.pwc.com/japan/individual/taxes-on-personal-income" },
+      { "label": "Tax Foundation - Corporate Tax Rates Around the World, 2025", "url": "https://taxfoundation.org/data/all/global/corporate-tax-rates-by-country-2025/" },
+      { "label": "OECD Revenue Statistics 2025 - highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
     ]
   },
   {
@@ -204,9 +204,9 @@
     "taxToGdpNote": "Provisional 2024 figure, OECD Revenue Statistics 2025.",
     "asOf": 2026,
     "sources": [
-      { "label": "PwC Worldwide Tax Summaries — Korea, taxes on personal income", "url": "https://taxsummaries.pwc.com/republic-of-korea/individual/taxes-on-personal-income" },
-      { "label": "PwC Worldwide Tax Summaries — Korea, taxes on corporate income", "url": "https://taxsummaries.pwc.com/republic-of-korea/corporate/taxes-on-corporate-income" },
-      { "label": "OECD Revenue Statistics 2025 — highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
+      { "label": "PwC Worldwide Tax Summaries - Korea, taxes on personal income", "url": "https://taxsummaries.pwc.com/republic-of-korea/individual/taxes-on-personal-income" },
+      { "label": "PwC Worldwide Tax Summaries - Korea, taxes on corporate income", "url": "https://taxsummaries.pwc.com/republic-of-korea/corporate/taxes-on-corporate-income" },
+      { "label": "OECD Revenue Statistics 2025 - highlights brochure (Table 1)", "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-highlights-brochure.pdf" }
     ]
   }
 ]

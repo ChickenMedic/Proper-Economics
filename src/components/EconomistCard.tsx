@@ -2,7 +2,7 @@ import Link from "next/link";
 import Portrait from "./Portrait";
 import { SchoolBadge } from "./Badges";
 
-/** Serializable card data — safe to pass from server pages into client lists. */
+/** Serializable card data - safe to pass from server pages into client lists. */
 export type EconomistCardData = {
   slug: string;
   name: string;

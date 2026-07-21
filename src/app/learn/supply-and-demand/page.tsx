@@ -3,9 +3,9 @@ import Link from "next/link";
 import SupplyDemand from "@/components/interactives/SupplyDemand";
 
 export const metadata: Metadata = {
-  title: "Supply & Demand — an interactive introduction",
+  title: "Supply & Demand - an interactive introduction",
   description:
-    "Drag the price of coffee, trigger a frost, impose rent control — and watch a market find its own price. Five short acts, no math required.",
+    "Drag the price of coffee, trigger a frost, impose rent control - and watch a market find its own price. Five short acts, no math required.",
 };
 
 export default function SupplyAndDemandPage() {
@@ -19,7 +19,7 @@ export default function SupplyAndDemandPage() {
       </h1>
       <p className="mt-3 max-w-2xl text-(--fg-soft)">
         The most famous diagram in economics, one idea at a time. You&apos;ve felt
-        all of this at the coffee counter — here you get to drive it.
+        all of this at the coffee counter - here you get to drive it.
       </p>
 
       <div className="mt-8">
@@ -31,7 +31,7 @@ export default function SupplyAndDemandPage() {
         <Link href="/economists/" className="text-(--accent) underline">
           Alfred Marshall
         </Link>{" "}
-        (profile coming soon). A deliberately simplified teaching model — real
+        (profile coming soon). A deliberately simplified teaching model - real
         markets are messier, but the logic is the same.
       </p>
     </div>

@@ -2,7 +2,7 @@
   {
     "slug": "supply-and-demand",
     "title": "Supply & Demand",
-    "tagline": "Nobody set the price — it found itself.",
+    "tagline": "Nobody set the price - it found itself.",
     "description": "Drag prices, trigger shocks, and impose ceilings and floors on a toy coffee market. Five short acts from 'what is demand?' to 'why do price controls cause shortages?'",
     "status": "live",
     "relatedEconomists": ["alfred-marshall", "adam-smith"]
@@ -10,7 +10,7 @@
   {
     "slug": "price-signals",
     "title": "Price Signals & the Calculation Problem",
-    "tagline": "Run the economy yourself — first as a market, then as a planner.",
+    "tagline": "Run the economy yourself - first as a market, then as a planner.",
     "description": "A toy economy of six linked goods. Watch prices carry news of a drought in market mode, then freeze prices and try to plan your way through the same shock by hand.",
     "status": "live",
     "relatedEconomists": ["friedrich-hayek", "ludwig-von-mises", "karl-marx"]
@@ -35,7 +35,7 @@
     "slug": "the-multiplier",
     "title": "The Multiplier",
     "tagline": "One person's spending is another's income.",
-    "description": "How a burst of spending ripples through an economy — and when it doesn't.",
+    "description": "How a burst of spending ripples through an economy - and when it doesn't.",
     "status": "roadmap",
     "relatedEconomists": ["john-maynard-keynes"]
   }

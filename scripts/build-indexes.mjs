@@ -69,7 +69,7 @@ for (const e of economists) {
       if (refBorn !== undefined && refBorn + 18 > died)
         errors.push(
           `${where}: ${field} "${ref}" (born ${refBorn}) was not an adult before ` +
-            `${e.data.name} died (${e.data.died}) — the link probably belongs on the other profile`,
+            `${e.data.name} died (${e.data.died}) - the link probably belongs on the other profile`,
         );
     }
   }
@@ -106,6 +106,36 @@ for (const s of schools) {
     if (!economistSlugs.has(ref))
       errors.push(`${where}: keyFigures references unknown economist "${ref}"`);
   }
+}
+
+// ---- em dash ban ----
+// Em dashes (U+2014) are banned everywhere in this repo; write " - " instead.
+// Built from a char code so this file passes its own scan.
+const EM_DASH = String.fromCharCode(0x2014);
+const TEXT_EXT = /\.(mdx?|ts|tsx|js|mjs|json|css|yml|txt)$/;
+const GENERATED = new Set([
+  path.join(root, "src", "data", "timeline.json"),
+  path.join(root, "public", "search-index.json"),
+]);
+
+function scanForEmDashes(entry) {
+  const stat = fs.statSync(entry);
+  if (stat.isDirectory()) {
+    for (const f of fs.readdirSync(entry)) scanForEmDashes(path.join(entry, f));
+    return;
+  }
+  if (!TEXT_EXT.test(entry) || GENERATED.has(entry)) return;
+  const lines = fs.readFileSync(entry, "utf8").split("\n");
+  lines.forEach((line, i) => {
+    if (line.includes(EM_DASH))
+      errors.push(`${path.relative(root, entry)}:${i + 1}: em dash found - use " - " instead`);
+  });
+}
+
+for (const dir of ["content", "src", "scripts"]) scanForEmDashes(path.join(root, dir));
+for (const f of fs.readdirSync(root)) {
+  if (TEXT_EXT.test(f) && fs.statSync(path.join(root, f)).isFile())
+    scanForEmDashes(path.join(root, f));
 }
 
 if (errors.length) {

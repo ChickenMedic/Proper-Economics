@@ -17,7 +17,7 @@ export default function TaxHistoryPage() {
     return (
       <div className="mx-auto max-w-3xl px-4 py-12">
         <h1 className="font-display text-3xl font-semibold">Taxes: how we got here</h1>
-        <p className="mt-3 text-(--fg-soft)">This narrative is being written — check back soon.</p>
+        <p className="mt-3 text-(--fg-soft)">This narrative is being written - check back soon.</p>
       </div>
     );
   }
@@ -61,7 +61,7 @@ export default function TaxHistoryPage() {
           How countries tax today →
         </Link>
         <p className="mt-1 text-sm text-(--fg-soft)">
-          Sourced rates for ~45 countries, a compare tool, and the Laffer curve —
+          Sourced rates for ~45 countries, a compare tool, and the Laffer curve - 
           with its uncertainty shown, not hidden.
         </p>
       </div>

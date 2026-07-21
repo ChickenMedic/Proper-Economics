@@ -6,7 +6,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://propereconomics.com"),
   title: {
-    default: "ProperEconomics — every big idea in economics, explained plainly",
+    default: "ProperEconomics - every big idea in economics, explained plainly",
     template: "%s · ProperEconomics",
   },
   description:

@@ -35,7 +35,7 @@ export const ERAS: Era[] = [
     end: 1870,
     color: "#0f766e",
     blurb:
-      "The first full theories of growth, trade, rent, and population — built in the shadow of the Industrial Revolution.",
+      "The first full theories of growth, trade, rent, and population - built in the shadow of the Industrial Revolution.",
   },
   {
     id: "marx-socialists",
@@ -62,7 +62,7 @@ export const ERAS: Era[] = [
     end: 1970,
     color: "#1d4ed8",
     blurb:
-      "Depression and war put governments at the center of the economy — and spark the century's great debate about planning.",
+      "Depression and war put governments at the center of the economy - and spark the century's great debate about planning.",
   },
   {
     id: "monetarist",
@@ -80,7 +80,7 @@ export const ERAS: Era[] = [
     end: 2026,
     color: "#be185d",
     blurb:
-      "Economics meets psychology, field experiments, and big data — and rediscovers that humans are human.",
+      "Economics meets psychology, field experiments, and big data - and rediscovers that humans are human.",
   },
 ];
 

@@ -8,7 +8,7 @@ export default function Footer() {
           Proper<span className="text-(--accent)">Economics</span>
         </p>
         <p>
-          Every big idea in economics, explained so your neighbor gets it — free, no
+          Every big idea in economics, explained so your neighbor gets it - free, no
           accounts, no tracking.
         </p>
         <p>

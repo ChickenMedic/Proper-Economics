@@ -271,7 +271,7 @@ export default function Timeline({ economists }: { economists: TimelineEconomist
               </g>
             );
           })}
-          {/* Faint school names behind the bars — context even with the
+          {/* Faint school names behind the bars - context even with the
               school-bands layer off. Each school gets its own vertical slot
               so the twelve labels never collide. */}
           {SCHOOLS.map((s, i) => {
@@ -353,7 +353,7 @@ export default function Timeline({ economists }: { economists: TimelineEconomist
             );
           })}
 
-          {/* Arrow legend — shown while a selection has connections */}
+          {/* Arrow legend - shown while a selection has connections */}
           {connections && connections.length > 0 && (
             <g fontSize={10.5} fill="var(--fg-soft)">
               <line
@@ -435,7 +435,7 @@ export default function Timeline({ economists }: { economists: TimelineEconomist
             );
           })}
 
-          {/* School bands — hover or focus to highlight members, click to pin */}
+          {/* School bands - hover or focus to highlight members, click to pin */}
           {layers.schools &&
             SCHOOLS.map((s, i) => {
               const y0 = M.top + laneCount * ROW_H + 12 + i * (BAND_H + 4);
@@ -467,7 +467,7 @@ export default function Timeline({ economists }: { economists: TimelineEconomist
                     tabIndex={0}
                     role="button"
                     aria-pressed={selectedSchool === s.id}
-                    aria-label={`${s.label} school of thought — highlight its economists`}
+                    aria-label={`${s.label} school of thought - highlight its economists`}
                     onFocus={() => setHoveredSchool(s.id)}
                     onBlur={() => setHoveredSchool(null)}
                     onKeyDown={(e) => {
@@ -496,7 +496,7 @@ export default function Timeline({ economists }: { economists: TimelineEconomist
               );
             })}
 
-          {/* Event markers — full labels, packed into rows so nothing
+          {/* Event markers - full labels, packed into rows so nothing
               overlaps or truncates; near the right edge the label sits to
               the dot's left. */}
           {placedEvents.placed.map(({ ev, cx, text, row, flip, labeled }) => {
@@ -519,7 +519,7 @@ export default function Timeline({ economists }: { economists: TimelineEconomist
                   r={4}
                   fill={ev.layer === "tax" ? "var(--chart-supply)" : "var(--fg-soft)"}
                 >
-                  <title>{`${ev.year} — ${ev.label}: ${ev.note}`}</title>
+                  <title>{`${ev.year} - ${ev.label}: ${ev.note}`}</title>
                 </circle>
                 {labeled && (
                   <text

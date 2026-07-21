@@ -185,29 +185,29 @@ export default function PriceSignals() {
         market.wasteScore,
       )} in waste. Your plan: ${Math.round(planned.shortageScore)} and ${Math.round(
         planned.wasteScore,
-      )}. The difference isn't your skill — it's the information you didn't have.`;
+      )}. The difference isn't your skill - it's the information you didn't have.`;
     }
     if (act === 0) {
       if (active.month === 0)
-        return "Six goods, one small economy. Steel and fuel make machines; wheat and machines make bread. You don't run anything here — just press “Advance a month” and watch the prices work.";
+        return "Six goods, one small economy. Steel and fuel make machines; wheat and machines make bread. You don't run anything here - just press “Advance a month” and watch the prices work.";
       if (active.month < DROUGHT_MONTH)
         return `Month ${active.month}: prices near their normal levels, everything roughly clearing. Calm before the drought.`;
       if (active.month === DROUGHT_MONTH)
-        return "Drought. Wheat capacity just collapsed — and look at the wheat price. No press release, no committee meeting: the number moved, and everyone who touches wheat now knows to economize.";
+        return "Drought. Wheat capacity just collapsed - and look at the wheat price. No press release, no committee meeting: the number moved, and everyone who touches wheat now knows to economize.";
       if (!done)
         return "Watch the ripple: dear wheat → dear bread → families buy a little less; meanwhile the high price is pulling growers back into wheat. Nobody is in charge of this response. That's Hayek's point: the price carried the knowledge.";
-      return "Twelve months in: the shock came and went, and the system healed itself through nothing but price changes. Now try doing this job yourself — go to Act 2.";
+      return "Twelve months in: the shock came and went, and the system healed itself through nothing but price changes. Now try doing this job yourself - go to Act 2.";
     }
     // planner
     if (active.month === 0)
-      return "Same economy, same coming drought — but now prices are frozen and YOU set every quota. One catch: your production reports arrive two months late, just like Gosplan's did. Good luck, comrade.";
+      return "Same economy, same coming drought - but now prices are frozen and YOU set every quota. One catch: your production reports arrive two months late, just like Gosplan's did. Good luck, comrade.";
     if (active.month < DROUGHT_MONTH)
-      return `Month ${active.month}: quotas met so far. Remember — whatever your reports say, they're describing two months ago.`;
+      return `Month ${active.month}: quotas met so far. Remember - whatever your reports say, they're describing two months ago.`;
     if (active.month === DROUGHT_MONTH)
-      return "The drought just hit — but your reports won't show it for two months, and no price is allowed to shout it. Keep planning.";
+      return "The drought just hit - but your reports won't show it for two months, and no price is allowed to shout it. Keep planning.";
     if (!done)
-      return "Shortages surface late, so you overcorrect; the overcorrection surfaces late, so you overcorrect again. Every quota you touch pulls inputs from somewhere else. This isn't you being bad at it — this is the job being impossible without prices.";
-    return "Twelve months of planning done. Compare your bread lines and warehouses of unsold goods with Act 1 — then read Act 3 for why this always happens.";
+      return "Shortages surface late, so you overcorrect; the overcorrection surfaces late, so you overcorrect again. Every quota you touch pulls inputs from somewhere else. This isn't you being bad at it - this is the job being impossible without prices.";
+    return "Twelve months of planning done. Compare your bread lines and warehouses of unsold goods with Act 1 - then read Act 3 for why this always happens.";
   }, [act, active.month, done, market.shortageScore, market.wasteScore, planned.shortageScore, planned.wasteScore]);
 
   return (
@@ -290,8 +290,8 @@ export default function PriceSignals() {
             <h3>The knowledge problem</h3>
             <p>
               Friedrich Hayek added the deeper twist you felt in the report delays:
-              the information a planner needs — this field flooded, that machine
-              broke, families here would happily eat rye instead — never exists in
+              the information a planner needs - this field flooded, that machine
+              broke, families here would happily eat rye instead - never exists in
               one place. It lives in millions of heads, and most of it can&apos;t
               even be written down in time to matter. In Act 1, nobody reported
               anything; the wheat price simply rose, and everyone adjusted. The
@@ -302,14 +302,14 @@ export default function PriceSignals() {
               Real planned economies ran this experiment at scale. Soviet Gosplan
               balanced thousands of materials by hand and still lurched between
               queues for bread and warehouses of unwanted goods. To be fair, planning
-              had real successes — crash industrialization in the 1930s, wartime
-              mobilization — and they fit the theory: few goods, one overriding goal.
+              had real successes - crash industrialization in the 1930s, wartime
+              mobilization - and they fit the theory: few goods, one overriding goal.
               The failures came where the calculation problem bites hardest: a whole
               consumer economy, millions of goods, no prices to think with.
             </p>
             <p>
               This module critiques a <em>mechanism</em>, not the people who hoped it
-              would work — and the conversation has another side. Read the{" "}
+              would work - and the conversation has another side. Read the{" "}
               <Link href="/economists/karl-marx/">Karl Marx profile</Link> for the
               steelmanned case that motivated planning, and{" "}
               <Link href="/economists/friedrich-hayek/">Hayek</Link> and{" "}
@@ -318,8 +318,8 @@ export default function PriceSignals() {
             </p>
           </div>
           <div className="space-y-4">
-            <ScoreCard title="Act 1 — the market" state={market} done={market.month >= RUN_MONTHS} />
-            <ScoreCard title="Act 2 — your plan" state={planned} done={planned.month >= RUN_MONTHS} />
+            <ScoreCard title="Act 1 - the market" state={market} done={market.month >= RUN_MONTHS} />
+            <ScoreCard title="Act 2 - your plan" state={planned} done={planned.month >= RUN_MONTHS} />
             <button
               onClick={() => {
                 setMarket(initialState());
@@ -348,7 +348,7 @@ export default function PriceSignals() {
         </p>
         <p>
           Act 2 replays the identical economy and drought, but prices are frozen and
-          you set production quotas by hand — with reports that arrive two months
+          you set production quotas by hand - with reports that arrive two months
           late, as they did in real planned economies. Because no price signals the
           shortage, and every correction diverts inputs from other goods, users
           typically end the year with several times the market&apos;s unmet demand

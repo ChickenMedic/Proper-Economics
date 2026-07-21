@@ -5,7 +5,7 @@ import timelineData from "@/data/timeline.json";
 export const metadata: Metadata = {
   title: "Timeline of economic thought",
   description:
-    "Five centuries of economists, schools of thought, and world events on one interactive timeline — with the arguments drawn as arrows.",
+    "Five centuries of economists, schools of thought, and world events on one interactive timeline - with the arguments drawn as arrows.",
 };
 
 export default function TimelinePage() {

@@ -5,7 +5,7 @@ import PriceSignals from "@/components/interactives/PriceSignals";
 export const metadata: Metadata = {
   title: "Price Signals & the Calculation Problem",
   description:
-    "Run a toy economy twice — once as a market, once as a central planner with frozen prices and late reports — and feel where planning breaks down.",
+    "Run a toy economy twice - once as a market, once as a central planner with frozen prices and late reports - and feel where planning breaks down.",
 };
 
 export default function PriceSignalsPage() {

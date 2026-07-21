@@ -319,40 +319,40 @@ export default function SupplyDemand() {
     switch (act) {
       case 0:
         if (price >= 8)
-          return `At ${p} a cup, only the die-hards are buying — about ${Math.round(Qd)} cups a day. Slide the price down and watch new buyers appear.`;
+          return `At ${p} a cup, only the die-hards are buying - about ${Math.round(Qd)} cups a day. Slide the price down and watch new buyers appear.`;
         if (price <= 3)
-          return `At ${p}, coffee is nearly a public utility: around ${Math.round(Qd)} cups a day. Cheaper price, more takers — that's the whole demand curve in one move.`;
+          return `At ${p}, coffee is nearly a public utility: around ${Math.round(Qd)} cups a day. Cheaper price, more takers - that's the whole demand curve in one move.`;
         return `At ${p} a cup, about ${Math.round(Qd)} people buy one each day. Lower the price and more say yes; raise it and they drop away. That downward slope is demand.`;
       case 1:
         if (price >= 8)
-          return `At ${p} a cup, everyone with an espresso machine wants in — sellers would pour about ${Math.round(Qs)} cups. High prices coax more supply out of the woodwork.`;
+          return `At ${p} a cup, everyone with an espresso machine wants in - sellers would pour about ${Math.round(Qs)} cups. High prices coax more supply out of the woodwork.`;
         if (price <= 3)
           return `At ${p}, hardly anyone can cover their beans and rent: only ${Math.round(Qs)} cups get made. Low prices push sellers out.`;
-        return `At ${p} a cup, sellers offer about ${Math.round(Qs)} cups a day. The higher the price, the more it's worth someone's while to sell — that's the upward slope of supply.`;
+        return `At ${p} a cup, sellers offer about ${Math.round(Qs)} cups a day. The higher the price, the more it's worth someone's while to sell - that's the upward slope of supply.`;
       case 2:
         if (gap < -2)
-          return `At ${p}, buyers want ${Math.round(Qd)} cups but sellers only offer ${Math.round(Qs)} — a shortage of ${Math.round(-gap)}. The queue forms, and frustrated buyers bid the price up. Press "Let the price go" and watch.`;
+          return `At ${p}, buyers want ${Math.round(Qd)} cups but sellers only offer ${Math.round(Qs)} - a shortage of ${Math.round(-gap)}. The queue forms, and frustrated buyers bid the price up. Press "Let the price go" and watch.`;
         if (gap > 2)
-          return `At ${p}, sellers pour ${Math.round(Qs)} cups but only ${Math.round(Qd)} sell — a surplus of ${Math.round(gap)}. Unsold coffee pushes the price down. Press "Let the price go" and watch.`;
-        return `Right around ${money(pEq)}, the two curves cross: about ${Math.round(qEq)} cups, no queue, no waste. Here's the quietly amazing part — nobody set this price. It found itself.`;
+          return `At ${p}, sellers pour ${Math.round(Qs)} cups but only ${Math.round(Qd)} sell - a surplus of ${Math.round(gap)}. Unsold coffee pushes the price down. Press "Let the price go" and watch.`;
+        return `Right around ${money(pEq)}, the two curves cross: about ${Math.round(qEq)} cups, no queue, no waste. Here's the quietly amazing part - nobody set this price. It found itself.`;
       case 3:
         if (scenario === "none")
           return `Pick a shock. Before you click: which curve will move, and which way will the price go?`;
         if (scenario === "frost")
-          return `Frost wiped out part of the harvest — at every price, fewer cups can be made, so the whole supply curve slid left. The new crossing point: about ${money(pEq)} and ${Math.round(qEq)} cups. Scarcer coffee, pricier coffee — automatically.`;
-        return `Word spreads that coffee is good for you — at every price, more people want a cup, so demand slid right. The new equilibrium: about ${money(pEq)} and ${Math.round(qEq)} cups. More demand met by more supply, coaxed out by the higher price.`;
+          return `Frost wiped out part of the harvest - at every price, fewer cups can be made, so the whole supply curve slid left. The new crossing point: about ${money(pEq)} and ${Math.round(qEq)} cups. Scarcer coffee, pricier coffee - automatically.`;
+        return `Word spreads that coffee is good for you - at every price, more people want a cup, so demand slid right. The new equilibrium: about ${money(pEq)} and ${Math.round(qEq)} cups. More demand met by more supply, coaxed out by the higher price.`;
       case 4:
         if (control === "none")
-          return `Now play government. Cap the price (a ceiling, like rent control) or prop it up (a floor, like a minimum wage) — and see what the market can't do anymore.`;
+          return `Now play government. Cap the price (a ceiling, like rent control) or prop it up (a floor, like a minimum wage) - and see what the market can't do anymore.`;
         if (control === "ceiling")
           return gap < -2
-            ? `With the price capped at ${p}, buyers want ${Math.round(Qd)} cups but sellers will only make ${Math.round(Qs)}. The shortage — ${Math.round(-gap)} cups — doesn't clear, because the price isn't allowed to rise. This queue is permanent.`
-            : `Your ceiling is above the market price, so it doesn't bind — the market still clears on its own. Push it below ${money(pEq)} to see it bite.`;
+            ? `With the price capped at ${p}, buyers want ${Math.round(Qd)} cups but sellers will only make ${Math.round(Qs)}. The shortage - ${Math.round(-gap)} cups - doesn't clear, because the price isn't allowed to rise. This queue is permanent.`
+            : `Your ceiling is above the market price, so it doesn't bind - the market still clears on its own. Push it below ${money(pEq)} to see it bite.`;
         return gap > 2
-          ? `With the price propped at ${p}, sellers pour ${Math.round(Qs)} cups but buyers take only ${Math.round(Qd)}. The surplus — ${Math.round(gap)} cups — piles up every day, because the price isn't allowed to fall.`
+          ? `With the price propped at ${p}, sellers pour ${Math.round(Qs)} cups but buyers take only ${Math.round(Qd)}. The surplus - ${Math.round(gap)} cups - piles up every day, because the price isn't allowed to fall.`
           : `Your floor is below the market price, so it doesn't bind. Push it above ${money(pEq)} to see the surplus appear.`;
       default:
-        return `Everything is unlocked: shocks, controls, the price itself. Break the market, fix it, break it again — that's the fastest way to make the diagram permanent in your head.`;
+        return `Everything is unlocked: shocks, controls, the price itself. Break the market, fix it, break it again - that's the fastest way to make the diagram permanent in your head.`;
     }
   };
 
@@ -474,7 +474,7 @@ export default function SupplyDemand() {
           This interactive demonstrates how prices coordinate a market, using coffee
           as the example. A demand curve slopes down (at $2 a cup about 80 people
           buy daily; at $8, about 20). A supply curve slopes up (at $2 sellers offer
-          about 14 cups; at $8, about 86). Where they cross — about $5 and 50 cups —
+          about 14 cups; at $8, about 86). Where they cross - about $5 and 50 cups - 
           the market clears: everyone willing to pay the price gets a cup, and no
           coffee goes unsold. No one chose $5; it emerges from buyers and sellers
           reacting to each other.
@@ -488,7 +488,7 @@ export default function SupplyDemand() {
           legal price ceiling below $5 creates a permanent shortage (the queue never
           clears); a floor above $5 creates a permanent surplus (coffee poured out
           every night). Rent control and minimum wages are the classic real-world
-          debates over exactly these trade-offs — with reasonable economists
+          debates over exactly these trade-offs - with reasonable economists
           disagreeing about how large the effects are in each market.
         </p>
       </TextAlternative>

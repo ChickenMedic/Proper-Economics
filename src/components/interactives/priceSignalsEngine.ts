@@ -139,7 +139,7 @@ export function step(
     s.drought = true;
     s.goods.wheat.capacity *= 0.45;
     s.log.push(
-      `Month ${s.month}: 🌵 Drought. The wheat harvest collapses — capacity down 55%.`,
+      `Month ${s.month}: 🌵 Drought. The wheat harvest collapses - capacity down 55%.`,
     );
   }
 
@@ -253,7 +253,7 @@ export function step(
       const rate = g.id === "wheat" ? 0.12 : 0.2; // replanting takes a season
       st.capacity += rate * (target - st.capacity);
     } else if (g.id === "wheat" && s.month > DROUGHT_MONTH) {
-      // Even a planned farm replants — but without price incentives pulling
+      // Even a planned farm replants - but without price incentives pulling
       // growers in, recovery is slower.
       st.capacity += 0.05 * (BASE_CAPACITY.wheat - st.capacity);
     }
@@ -268,11 +268,11 @@ export function step(
   if (mode === "market") {
     if (s.month === DROUGHT_MONTH) {
       s.log.push(
-        `Month ${s.month}: Wheat price jumps to $${wheat.price.toFixed(2)}. Nobody announced the drought — the price did.`,
+        `Month ${s.month}: Wheat price jumps to $${wheat.price.toFixed(2)}. Nobody announced the drought - the price did.`,
       );
     } else if (s.month === DROUGHT_MONTH + 1) {
       s.log.push(
-        `Month ${s.month}: Bread is dearer ($${bread.price.toFixed(2)}), so families buy a bit less — economizing without being told. High wheat prices are already pulling growers back in.`,
+        `Month ${s.month}: Bread is dearer ($${bread.price.toFixed(2)}), so families buy a bit less - economizing without being told. High wheat prices are already pulling growers back in.`,
       );
     } else if (s.drought && wheat.capacity > BASE_CAPACITY.wheat * 0.85) {
       s.log.push(

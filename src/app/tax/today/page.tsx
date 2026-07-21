@@ -7,7 +7,7 @@ import type { TaxData } from "@/lib/tax";
 export const metadata: Metadata = {
   title: "How countries tax today",
   description:
-    "Sourced, dated tax rates for ~45 countries — income, corporate, VAT, and tax-to-GDP — plus a compare tool, a stylized regime calculator, and an honest Laffer curve.",
+    "Sourced, dated tax rates for ~45 countries - income, corporate, VAT, and tax-to-GDP - plus a compare tool, a stylized regime calculator, and an honest Laffer curve.",
 };
 
 export default function TaxTodayPage() {
@@ -22,7 +22,7 @@ export default function TaxTodayPage() {
         How countries tax today
       </h1>
       <p className="mt-3 max-w-2xl text-(--fg-soft)">
-        Headline rates for {data.countries.length} countries — every figure dated
+        Headline rates for {data.countries.length} countries - every figure dated
         and linked to its source. For how we got here, read{" "}
         <Link href="/tax/history/" className="text-(--accent) underline">
           the history

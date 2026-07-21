@@ -5,8 +5,8 @@ type TipMap = Record<string, { term: string; short: string }>;
 
 /**
  * Builds the component map passed to MDXRemote. Content authors get:
- *   <G term="elasticity">elastic</G>  — glossary tooltip + link
- *   <E to="karl-marx">Marx</E>        — cross-link to an economist profile
+ *   <G term="elasticity">elastic</G> - glossary tooltip + link
+ *   <E to="karl-marx">Marx</E> - cross-link to an economist profile
  */
 export function mdxComponents(tips: TipMap): MDXComponents {
   return {

@@ -5,7 +5,7 @@ import modules from "@/data/modules.json";
 export const metadata: Metadata = {
   title: "Learn by playing",
   description:
-    "Interactive economics: drag prices, trigger shocks, run a planned economy — and feel the ideas instead of memorizing them.",
+    "Interactive economics: drag prices, trigger shocks, run a planned economy - and feel the ideas instead of memorizing them.",
 };
 
 export default function LearnPage() {
@@ -19,7 +19,7 @@ export default function LearnPage() {
       </h1>
       <p className="mt-3 max-w-2xl text-(--fg-soft)">
         Economics makes a lot more sense when you can grab the price and move it
-        yourself. Each module is a short guided story — one idea per screen, with a
+        yourself. Each module is a short guided story - one idea per screen, with a
         sandbox at the end.
       </p>
 
@@ -50,7 +50,7 @@ export default function LearnPage() {
                 key={m.slug}
                 className="rounded-xl border border-dashed border-(--line) p-4 text-sm text-(--fg-soft)"
               >
-                <span className="font-medium text-(--fg)">{m.title}</span> —{" "}
+                <span className="font-medium text-(--fg)">{m.title}</span> - {" "}
                 {m.tagline}
               </li>
             ))}

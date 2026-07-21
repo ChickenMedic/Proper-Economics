@@ -12,7 +12,7 @@ const METRICS: { key: "topIncomeRate" | "corporateRate" | "vatRate" | "taxToGdp"
 
 function Bar({ value, max, color }: { value: number | null; max: number; color: string }) {
   if (value === null)
-    return <p className="text-sm text-(--fg-soft) italic">no national tax / no data — see table notes</p>;
+    return <p className="text-sm text-(--fg-soft) italic">no national tax / no data - see table notes</p>;
   return (
     <div className="flex items-center gap-2">
       <div className="h-4 flex-1 rounded-full bg-(--bg) border border-(--line) overflow-hidden">
@@ -75,7 +75,7 @@ export default function CompareCountries({ countries }: { countries: CountryTax[
           ))}
           <p className="text-xs text-(--fg-soft)">
             Rates as of {ca.asOf} ({ca.name}) and {cb.asOf} ({cb.name}). Headline
-            statutory rates hide plenty — thresholds, deductions, and social
+            statutory rates hide plenty - thresholds, deductions, and social
             contributions differ hugely. Sources are linked per country in the table
             view.
           </p>

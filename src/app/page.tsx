@@ -21,7 +21,7 @@ export default function Home() {
         </h1>
         <p className="mt-6 text-lg text-(--fg-soft) leading-relaxed">
           From the mercantilists to the behavioral economists: who they were, what
-          they actually argued, where it breaks down — in plain English, with
+          they actually argued, where it breaks down - in plain English, with
           interactive toys you can play with. Free. No accounts. No paywalls.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
@@ -43,7 +43,7 @@ export default function Home() {
       {/* Interactives */}
       <section aria-labelledby="interactives-heading" className="py-8">
         <h2 id="interactives-heading" className="font-display text-2xl font-semibold">
-          Don&apos;t read it — <em>feel</em> it
+          Don&apos;t read it - <em>feel</em> it
         </h2>
         <p className="mt-2 text-(--fg-soft) max-w-2xl">
           Wherever an idea can be a toy instead of a paragraph, it is.

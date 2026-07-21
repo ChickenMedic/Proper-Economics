@@ -6,7 +6,7 @@ import EconomistIndex from "@/components/EconomistIndex";
 export const metadata: Metadata = {
   title: "The economists",
   description:
-    "Plain-English profiles of the people who shaped how we think about markets — from the mercantilists to the behavioral economists.",
+    "Plain-English profiles of the people who shaped how we think about markets - from the mercantilists to the behavioral economists.",
 };
 
 export default function EconomistsPage() {
@@ -18,7 +18,7 @@ export default function EconomistsPage() {
         The economists
       </h1>
       <p className="mt-3 max-w-2xl text-(--fg-soft)">
-        Every big idea in economics, explained so your neighbor gets it — free, no
+        Every big idea in economics, explained so your neighbor gets it - free, no
         accounts, no tracking. Flagship profiles are marked with a ★.
       </p>
       <div className="mt-8">

@@ -14,7 +14,7 @@ const COLS: { key: SortKey; label: string; unit?: string }[] = [
 ];
 
 function fmt(v: number | null, unit = "%"): string {
-  return v === null ? "—" : `${v}${unit}`;
+  return v === null ? " - " : `${v}${unit}`;
 }
 
 export default function TaxTable({ countries }: { countries: CountryTax[] }) {

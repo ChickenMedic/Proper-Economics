@@ -16,11 +16,11 @@ export default function AboutPage() {
 
       <h2>The mission</h2>
       <p>
-        Every big idea in economics, explained so your neighbor gets it — with toys
-        you can play with. This site distills the thinkers who shaped how we
-        understand markets, from the mercantilists to the behavioral economists, into
-        plain-English profiles, an interactive timeline, and hands-on simulations.
-        It&apos;s free, has no accounts, no paywalls, and no tracking.
+        We want to simplify the discussion of economics — and be the one-stop shop
+        for learning it. Every big idea, from the mercantilists to the behavioral
+        economists, explained so your neighbor gets it: plain-English profiles, an
+        interactive timeline, hands-on simulations, and links to the best videos and
+        original texts. Free, no accounts, no paywalls, no tracking.
       </p>
 
       <h2>Where we stand</h2>

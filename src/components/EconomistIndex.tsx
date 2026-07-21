@@ -6,10 +6,15 @@ import EconomistCard, { type EconomistCardData } from "./EconomistCard";
 import { ERAS } from "@/data/eras";
 import { SCHOOLS } from "@/data/schools";
 
+type SortOrder = "born" | "first" | "last";
+
+const surname = (name: string) => name.trim().split(/\s+/).slice(-1)[0];
+
 function Filters({ economists }: { economists: EconomistCardData[] }) {
   const params = useSearchParams();
   const [era, setEra] = useState(params.get("era") ?? "all");
   const [school, setSchool] = useState("all");
+  const [sort, setSort] = useState<SortOrder>("born");
 
   const presentEras = useMemo(
     () => ERAS.filter((e) => economists.some((x) => x.era === e.id)),
@@ -20,9 +25,16 @@ function Filters({ economists }: { economists: EconomistCardData[] }) {
     [economists],
   );
 
-  const filtered = economists.filter(
-    (e) => (era === "all" || e.era === era) && (school === "all" || e.school === school),
-  );
+  const filtered = economists
+    .filter(
+      (e) => (era === "all" || e.era === era) && (school === "all" || e.school === school),
+    )
+    .sort((a, b) => {
+      // economists arrive sorted by birth year, so "born" keeps input order
+      if (sort === "first") return a.name.localeCompare(b.name);
+      if (sort === "last") return surname(a.name).localeCompare(surname(b.name));
+      return 0;
+    });
 
   const selectClass =
     "rounded-lg border border-(--line) bg-(--bg-raised) px-3 py-1.5 text-sm";
@@ -58,6 +70,18 @@ function Filters({ economists }: { economists: EconomistCardData[] }) {
                 {s.label}
               </option>
             ))}
+          </select>
+        </label>
+        <label className="flex items-center gap-2 text-sm text-(--fg-soft)">
+          Sort
+          <select
+            value={sort}
+            onChange={(e) => setSort(e.target.value as SortOrder)}
+            className={selectClass}
+          >
+            <option value="born">Birth year</option>
+            <option value="first">First name A–Z</option>
+            <option value="last">Last name A–Z</option>
           </select>
         </label>
         <p className="text-sm text-(--fg-soft)" role="status">

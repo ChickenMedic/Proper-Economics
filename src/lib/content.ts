@@ -26,6 +26,12 @@ export type Portrait = {
   alt?: string;
 };
 
+export type Video = {
+  title: string;
+  channel?: string;
+  url: string;
+};
+
 export type EconomistMeta = {
   name: string;
   slug: string;
@@ -35,12 +41,14 @@ export type EconomistMeta = {
   school: string; // school id from src/data/schools.ts
   era: string; // era id from src/data/eras.ts
   knownFor: string;
+  summary: string; // two short plain-text paragraphs separated by a blank line
   portrait?: Portrait;
   influencedBy: string[];
   influenced: string[];
   arguedAgainst: string[];
   works: Work[];
   secondarySources: SecondarySource[];
+  videos: Video[]; // verified YouTube links about the economist and their ideas
   tryIt?: string; // learn-module slug
   flagship: boolean;
   tags: string[];
@@ -81,6 +89,7 @@ function toEconomistMeta(data: Record<string, unknown>, slug: string): Economist
     arguedAgainst: [],
     works: [],
     secondarySources: [],
+    videos: [],
     tags: [],
     flagship: false,
     ...(data as object),

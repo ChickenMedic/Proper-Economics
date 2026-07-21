@@ -44,11 +44,15 @@ const ERA_IDS = new Set([
   "behavioral",
 ]);
 
+const bornBySlug = new Map(economists.map((e) => [e.slug, e.data.born]));
+
 for (const e of economists) {
   const where = `economists/${e.slug}`;
-  for (const field of ["name", "born", "nationality", "school", "era", "knownFor"]) {
+  for (const field of ["name", "born", "nationality", "school", "era", "knownFor", "summary"]) {
     if (e.data[field] === undefined) errors.push(`${where}: missing "${field}"`);
   }
+  if (e.data.summary && e.data.summary.trim().split(/\n\s*\n/).length !== 2)
+    errors.push(`${where}: "summary" must be exactly two paragraphs separated by a blank line`);
   if (e.data.era && !ERA_IDS.has(e.data.era)) errors.push(`${where}: unknown era "${e.data.era}"`);
   for (const field of ["influencedBy", "influenced", "arguedAgainst"]) {
     for (const ref of e.data[field] ?? []) {
@@ -56,10 +60,28 @@ for (const e of economists) {
         errors.push(`${where}: ${field} references unknown economist "${ref}"`);
     }
   }
+  // Chronology: you can't argue with (or be influenced by) someone who
+  // hadn't reached adulthood before you died. Predecessors are always fine.
+  const died = e.data.died ?? 9999;
+  for (const field of ["influencedBy", "arguedAgainst"]) {
+    for (const ref of e.data[field] ?? []) {
+      const refBorn = bornBySlug.get(ref);
+      if (refBorn !== undefined && refBorn + 18 > died)
+        errors.push(
+          `${where}: ${field} "${ref}" (born ${refBorn}) was not an adult before ` +
+            `${e.data.name} died (${e.data.died}) — the link probably belongs on the other profile`,
+        );
+    }
+  }
   if (e.data.tryIt && !moduleSlugs.has(e.data.tryIt))
     errors.push(`${where}: tryIt references unknown module "${e.data.tryIt}"`);
   for (const w of e.data.works ?? []) {
     if (!w.url) errors.push(`${where}: work "${w.title}" has no url`);
+  }
+  for (const v of e.data.videos ?? []) {
+    if (!v.title || !v.url) errors.push(`${where}: video entries need "title" and "url"`);
+    else if (!/^https:\/\/(www\.)?(youtube\.com|youtu\.be)\//.test(v.url))
+      errors.push(`${where}: video "${v.title}" url is not a YouTube link`);
   }
   // <G term="..."> references in the body must resolve to glossary entries
   for (const m of e.content.matchAll(/<G\s+term="([^"]+)"/g)) {
@@ -166,6 +188,7 @@ const timeline = {
       era: e.data.era,
       school: e.data.school,
       knownFor: e.data.knownFor,
+      summary: (e.data.summary ?? "").trim(),
       flagship: !!e.data.flagship,
       influencedBy: e.data.influencedBy ?? [],
       arguedAgainst: e.data.arguedAgainst ?? [],

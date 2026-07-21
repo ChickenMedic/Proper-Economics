@@ -1,10 +1,12 @@
 import Link from "next/link";
 import SiteSearch from "./SiteSearch";
+import SchoolsMenu from "./SchoolsMenu";
+import ThemeToggle from "./ThemeToggle";
 
 const NAV = [
   { href: "/timeline/", label: "Timeline" },
   { href: "/economists/", label: "Economists" },
-  { href: "/schools/", label: "Schools" },
+  { href: "/schools/", label: "Schools" }, // rendered as the SchoolsMenu dropdown
   { href: "/learn/", label: "Learn" },
   { href: "/tax/", label: "Tax" },
   { href: "/glossary/", label: "Glossary" },
@@ -22,17 +24,22 @@ export default function Header() {
           <ul className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
             {NAV.map((item) => (
               <li key={item.href}>
-                <Link
-                  href={item.href}
-                  className="text-(--fg-soft) hover:text-(--fg) transition-colors"
-                >
-                  {item.label}
-                </Link>
+                {item.label === "Schools" ? (
+                  <SchoolsMenu />
+                ) : (
+                  <Link
+                    href={item.href}
+                    className="text-(--fg-soft) hover:text-(--fg) transition-colors"
+                  >
+                    {item.label}
+                  </Link>
+                )}
               </li>
             ))}
           </ul>
         </nav>
         <SiteSearch />
+        <ThemeToggle />
       </div>
     </header>
   );

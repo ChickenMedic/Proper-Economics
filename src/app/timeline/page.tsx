@@ -17,9 +17,8 @@ export default function TimelinePage() {
         The conversation, 1550–today
       </h1>
       <p className="mt-3 max-w-2xl text-(--fg-soft)">
-        Economic ideas answer each other across centuries. Every bar is a life;
-        click one to see who they learned from and who they argued with. More
-        thinkers are added as their profiles are published.
+        Five centuries of big ideas on one timeline. Click a bar to see who they
+        learned from and who they argued with.
       </p>
       <div className="mt-8">
         <Timeline economists={economists} />

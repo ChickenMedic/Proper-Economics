@@ -1,22 +1,24 @@
 @import "tailwindcss";
 
 @theme {
-  /* Warm "old paper" light palette with a restrained accent. */
+  /* Warm "old paper" light palette with a vivid red accent.
+     Accent contrast: #d31f1f is 4.9:1 on paper; #ff453a is 5.4:1 on dark.
+     Don't lighten the dark accent further — lighter sRGB reds go salmon. */
   --color-paper: #faf7f1;
   --color-paper-raised: #ffffff;
   --color-ink: #211d17;
   --color-ink-soft: #57503f;
   --color-line: #e5ddcd;
-  --color-accent: #0f6b5c;
-  --color-accent-soft: #e3efec;
+  --color-accent: #d31f1f;
+  --color-accent-soft: #faeeeb;
 
   --color-paper-dark: #171512;
   --color-paper-raised-dark: #211e19;
   --color-ink-dark: #ece5d8;
   --color-ink-soft-dark: #a89f8c;
   --color-line-dark: #37322a;
-  --color-accent-dark: #4cc2ac;
-  --color-accent-soft-dark: #12332d;
+  --color-accent-dark: #ff453a;
+  --color-accent-soft-dark: #3a1613;
 
   --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia,
     "Times New Roman", serif;
@@ -25,6 +27,7 @@
 }
 
 :root {
+  color-scheme: light;
   --bg: var(--color-paper);
   --bg-raised: var(--color-paper-raised);
   --fg: var(--color-ink);
@@ -35,15 +38,22 @@
 
   /* Chart series colors — validated for CVD separation + contrast on both
      surfaces (dataviz palette check). Demand is always blue, supply always
-     orange, site-wide. Shortage/surplus are states, direct-labeled in use. */
+     orange, site-wide. Shortage/surplus are states, direct-labeled in use.
+     Shortage is teal (not red) so it never collides with the red accent —
+     e.g. on the timeline, where accent and shortage draw side by side. */
   --chart-demand: #2563eb;
   --chart-supply: #b45309;
-  --chart-shortage: #dc2626;
+  --chart-shortage: #0d9488;
   --chart-surplus: #7c3aed;
 }
 
+/* Dark palette. Applied two ways: by system preference (unless the user
+   forced light) and by the header toggle setting data-theme="dark".
+   Keep both blocks identical — they exist because CSS can't share a
+   rule between a media query and an attribute selector. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
     --bg: var(--color-paper-dark);
     --bg-raised: var(--color-paper-raised-dark);
     --fg: var(--color-ink-dark);
@@ -54,9 +64,25 @@
 
     --chart-demand: #3b82f6;
     --chart-supply: #d97706;
-    --chart-shortage: #ef4444;
+    --chart-shortage: #0d9488;
     --chart-surplus: #8b5cf6;
   }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: var(--color-paper-dark);
+  --bg-raised: var(--color-paper-raised-dark);
+  --fg: var(--color-ink-dark);
+  --fg-soft: var(--color-ink-soft-dark);
+  --line: var(--color-line-dark);
+  --accent: var(--color-accent-dark);
+  --accent-soft: var(--color-accent-soft-dark);
+
+  --chart-demand: #3b82f6;
+  --chart-supply: #d97706;
+  --chart-shortage: #0d9488;
+  --chart-surplus: #8b5cf6;
 }
 
 html {

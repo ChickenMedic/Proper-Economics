@@ -21,7 +21,18 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        {/* Apply the saved theme before first paint to avoid a flash.
+            Falls back to the system preference when nothing is saved
+            or storage is unavailable. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              'try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}',
+          }}
+        />
+      </head>
       <body className="min-h-screen flex flex-col antialiased">
         <a
           href="#main"

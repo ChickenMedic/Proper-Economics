@@ -219,6 +219,31 @@ export default async function EconomistPage({
             </div>
           )}
 
+          {meta.videos.length > 0 && (
+            <div>
+              <h2 className="font-display text-lg font-semibold">Watch</h2>
+              <ul className="mt-3 space-y-3">
+                {meta.videos.map((v) => (
+                  <li key={v.url} className="text-sm">
+                    <a
+                      href={v.url}
+                      rel="noopener"
+                      target="_blank"
+                      className="font-medium text-(--accent) hover:underline"
+                    >
+                      {v.title}
+                    </a>
+                    {v.channel && (
+                      <span className="block text-(--fg-soft)">
+                        {v.channel} · YouTube
+                      </span>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           {meta.portrait && portraitSrc(meta) && (
             <p className="text-xs text-(--fg-soft)">
               Portrait:{" "}
